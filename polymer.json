@@ -1,0 +1,21 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/fetch-app/fetch-app.js",
+  "sources": [
+    "src/**.js",
+    "manifest/**",
+    "package.json"
+  ],
+  "extraDependencies": [
+    "node_modules/@webcomponents/webcomponentsjs/bundles/**",
+    "backend/**",
+    "data/**"
+  ],
+  "builds": [
+    {
+      "preset": "es5-bundled",
+      "addServiceWorker": false,
+      "bundle":  false
+    }
+  ]
+}

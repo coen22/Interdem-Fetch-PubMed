@@ -1,0 +1,6 @@
+{
+  "name": "Interdem Fetch PubMed",
+  "short_name": "Interdem Fetch PubMed",
+  "start_url": "/",
+  "display": "standalone"
+}
