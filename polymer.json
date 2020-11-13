@@ -15,7 +15,7 @@
     {
       "preset": "es5-bundled",
       "addServiceWorker": false,
-      "bundle":  false
+      "bundle":  true
     }
   ]
 }

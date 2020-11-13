@@ -9,23 +9,31 @@ $db = 'pubmed';
 # define base url
 $base = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
 
-# load authors
-$url = "../data/names.json";
-$authors = json_decode(file_get_contents($url));
-
-# init json
-$json = null;
-
 # add authors to query
-foreach ($authors as $author) {
-    $author = str_replace(", ", "+", $author);
+if(isset($_GET['author'])) {
+    $author = $_GET['author'];
+} else {
+    # for testing
+    $author = "Aguirre, Elisa";
+}
 
+# change for query
+$author = strtolower(str_replace(", ", "+", $author));
+
+# define cache url
+$cacheUrl = $_SERVER['DOCUMENT_ROOT']."/data/articles/$author.json";
+
+# check if cache available
+if (file_exists($cacheUrl)) {
+    # retrieve from cache
+    $jsonText = file_get_contents($cacheUrl);
+} else {
     # create search query
     $query = "dementia[mesh]+AND+$author" . "[AU]";
 
     #assemble the esearch URL
     $url = $base . "esearch.fcgi?db=$db&term=$query&usehistory=y";
-//    echo "$url<br/>";
+    //    echo "$url<br/>";
 
     #post the esearch URL
     $ch = curl_init($url); // such as http://example.com/example.xml
@@ -33,7 +41,7 @@ foreach ($authors as $author) {
     curl_setopt($ch, CURLOPT_HEADER, 0);
     $output = curl_exec($ch);
     curl_close($ch);
-//    echo "$output<br/>";
+    //    echo "$output<br/>";
 
     try {
         # convert into xml structure
@@ -61,13 +69,15 @@ foreach ($authors as $author) {
         $xml = simplexml_load_string($data);
         $jsonText = json_encode($xml);
 
-        if ($json == null)
-            $json = json_decode($jsonText, TRUE);
-        else
-            array_push($json['PubmedArticle'], json_decode($jsonText, TRUE)['PubmedArticle']);
+        if ($jsonText != null && $jsonText != false) {
+            $newFile = fopen($cacheUrl, "w");
+            fwrite($newFile, $jsonText);
+            fclose($newFile);
+        }
     } catch (Exception $e) {
         // no articles founds
+        $jsonText = null;
     }
 }
 
-echo "json_encode($json)";
+echo $jsonText;

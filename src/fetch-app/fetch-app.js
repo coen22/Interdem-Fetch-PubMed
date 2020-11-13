@@ -29,45 +29,60 @@ class FetchApp extends PolymerElement {
       <app-location route="{{route}}" query-params="{{queryParams}}" route-changed="routeChanged"></app-location>
       <app-route route="{{route}}" pattern="/:page" data="{{routeData}}" tail="{{routeTail}}"></app-route>
 
-      <!-- data -->
-      <iron-ajax auto="true" 
-        url="backend/fetch.php" 
-        handle-as="json"
-        last-response="{{articles}}">
-      </iron-ajax>
+        <!-- authors -->
+        <iron-ajax auto="true" 
+          url="data/names.json" 
+          handle-as="json"
+          last-response="{{authors}}">
+        </iron-ajax>
       
       <div class="page-width">
         <h1>Articles</h1>
         <template is="dom-if" if="{{!loaded}}">
           Loading...
         </template>
-        <template is="dom-if" if="{{loaded}}">
-          <template is="dom-repeat" items="[[articles.PubmedArticle]]">
-            <vaadin-details theme="filled">
-              <div slot="summary">
-                {{item.MedlineCitation.Article.ArticleTitle}} 
-                ({{item.MedlineCitation.DateRevised.Year}})
-              </div>
-              <template is="dom-if" if="{{isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                <template is="dom-repeat" items="[[item.MedlineCitation.Article.Abstract.AbstractText]]">
-                  <p>{{item}}</p>
-                </template>
+        <template id="authorsRepeat" is="dom-repeat" items="[[authors]]">
+          <!-- data -->
+          <iron-ajax auto="true" 
+            url="backend/fetch.php?author={{item.name}}" 
+            handle-as="json"
+            last-response="{{item.data}}"
+            on-response="_dataLoaded">
+          </iron-ajax>
+          
+          <template is="dom-if" if="{{item.data}}">
+            <template is="dom-if" if="{{item.data.PubmedArticle}}">
+              <h2>{{item.name}}</h2>
+              <template is="dom-repeat" items="[[item.data.PubmedArticle]]">
+                <vaadin-details theme="filled">
+                  <div slot="summary">
+                    {{item.MedlineCitation.Article.ArticleTitle}} 
+                    ({{item.MedlineCitation.DateRevised.Year}})
+                  </div>
+                  <template is="dom-if" if="{{isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
+                    <template is="dom-repeat" items="[[item.MedlineCitation.Article.Abstract.AbstractText]]">
+                      <p>{{item}}</p>
+                    </template>
+                  </template>
+                  <template is="dom-if" if="{{!isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
+                    <p>{{item.MedlineCitation.Article.Abstract.AbstractText}}</p>
+                  </template>
+                </vaadin-details>
               </template>
-              <template is="dom-if" if="{{!isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                <p>{{item.MedlineCitation.Article.Abstract.AbstractText}}</p>
-              </template>
-            </vaadin-details>
+            </template>
           </template>
         </template>
+        <br/>
+        <br/>
       </div>
     `;
   }
 
   static get properties() {
     return {
-      articles: {
-        type: String,
-        observer: '_articlesChanged'
+      authors: {
+        type: Object,
+        notify: true
       },
       loaded: {
         type: Boolean,
@@ -76,19 +91,19 @@ class FetchApp extends PolymerElement {
     };
   }
 
-  _articlesChanged(newValue, oldValue) {
-    this.loaded = !!newValue;
-  }
+  // isLoaded(item) {
+  //   if (item && item.data && item.data['PubmedArticle'])
+  //     return item.data['PubmedArticle'].length > 0;
+  //
+  //   return false;
+  // }
 
   isObject(obj) {
     return typeof obj === 'object' && obj !== null;
   }
 
-  printJSON(obj) {
-    if (!obj)
-      return false;
-
-    return JSON.stringify(obj);
+  _dataLoaded(e) {
+    this.loaded = true;
   }
 
   connectedCallback() {
