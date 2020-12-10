@@ -52,23 +52,35 @@ class FetchApp extends PolymerElement {
           
           <template is="dom-if" if="{{item.data}}">
             <template is="dom-if" if="{{item.data.PubmedArticle}}">
-              <h2>{{item.name}}</h2>
-              <template is="dom-repeat" items="[[item.data.PubmedArticle]]">
-                <vaadin-details theme="filled">
-                  <div slot="summary">
-                    {{item.MedlineCitation.Article.ArticleTitle}} 
-                    ({{item.MedlineCitation.DateRevised.Year}})
-                  </div>
-                  <template is="dom-if" if="{{isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                    <template is="dom-repeat" items="[[item.MedlineCitation.Article.Abstract.AbstractText]]">
-                      <p>{{item}}</p>
+              <vaadin-details>
+                <div slot="summary">
+                  {{item.name}}
+                </div>
+                <template is="dom-repeat" items="[[item.data.PubmedArticle]]">
+                  <vaadin-details theme="filled">
+                    <div slot="summary">
+                      {{item.MedlineCitation.Article.ArticleTitle}} 
+                      ({{item.MedlineCitation.DateRevised.Year}})
+                    </div>
+                    <template is="dom-if" if="{{isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
+                      <template is="dom-if" if="{{isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">
+                        <template is="dom-repeat" items="[[item.MedlineCitation.Article.Abstract.AbstractText]]">
+                          <p>{{item}}</p>
+                        </template>
+                      </template>
+                      <template is="dom-if" if="{{!isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">
+                        <template is="dom-repeat" items="[[asArray(item.MedlineCitation.Article.Abstract.AbstractText)]]">
+                          <h3>{{item.key}}</h3>
+                          <p>{{item.value}}</p>
+                        </template>
+                      </template>
                     </template>
-                  </template>
-                  <template is="dom-if" if="{{!isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                    <p>{{item.MedlineCitation.Article.Abstract.AbstractText}}</p>
-                  </template>
-                </vaadin-details>
-              </template>
+                    <template is="dom-if" if="{{!isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
+                      <p>{{item.MedlineCitation.Article.Abstract.AbstractText}}</p>
+                    </template>
+                  </vaadin-details>
+                </template>
+              </vaadin-details>
             </template>
           </template>
         </template>
@@ -91,15 +103,16 @@ class FetchApp extends PolymerElement {
     };
   }
 
-  // isLoaded(item) {
-  //   if (item && item.data && item.data['PubmedArticle'])
-  //     return item.data['PubmedArticle'].length > 0;
-  //
-  //   return false;
-  // }
-
   isObject(obj) {
     return typeof obj === 'object' && obj !== null;
+  }
+
+  asArray(obj) {
+    return Object.entries(obj);
+  }
+
+  isArray(obj) {
+    return Array.isArray(obj);
   }
 
   _dataLoaded(e) {

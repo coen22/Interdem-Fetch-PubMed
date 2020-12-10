@@ -19,6 +19,7 @@ if(isset($_GET['author'])) {
 
 # change for query
 $author = strtolower(str_replace(", ", "+", $author));
+$author = strtolower(str_replace(" ", "+", $author));
 
 # define cache url
 $cacheUrl = $_SERVER['DOCUMENT_ROOT']."/data/articles/$author.json";
