@@ -49,41 +49,30 @@ class FetchApp extends PolymerElement {
             last-response="{{item.data}}"
             on-response="_dataLoaded">
           </iron-ajax>
-          
-          <template is="dom-if" if="{{item.data}}">
-            <template is="dom-if" if="{{item.data.PubmedArticle}}">
-              <vaadin-details>
-                <div slot="summary">
-                  {{item.name}}
-                </div>
-                <template is="dom-repeat" items="[[item.data.PubmedArticle]]">
-                  <vaadin-details theme="filled">
-                    <div slot="summary">
-                      {{item.MedlineCitation.Article.ArticleTitle}} 
-                      ({{item.MedlineCitation.DateRevised.Year}})
-                    </div>
-                    <template is="dom-if" if="{{isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                      <template is="dom-if" if="{{isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                        <template is="dom-repeat" items="[[item.MedlineCitation.Article.Abstract.AbstractText]]">
-                          <p>{{item}}</p>
-                        </template>
-                      </template>
-                      <template is="dom-if" if="{{!isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                        <template is="dom-repeat" items="[[asArray(item.MedlineCitation.Article.Abstract.AbstractText)]]">
-                          <h3>{{item.key}}</h3>
-                          <p>{{item.value}}</p>
-                        </template>
-                      </template>
-                    </template>
-                    <template is="dom-if" if="{{!isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">
-                      <p>{{item.MedlineCitation.Article.Abstract.AbstractText}}</p>
-                    </template>
-                  </vaadin-details>
-                </template>
-              </vaadin-details>
-            </template>
+        </template>
+        
+        <template is="dom-repeat" items="[[papers]]">
+          <h2>{{item.year}}</h2>
+          <template is="dom-repeat" items="[[item.articles]]">
+            <h3>{{item.MedlineCitation.Article.ArticleTitle}}</h3>
           </template>
         </template>
+<!--                  <template is="dom-if" if="{{isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
+<!--                    <template is="dom-if" if="{{isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
+<!--                      <template is="dom-repeat" items="[[item.MedlineCitation.Article.Abstract.AbstractText]]">-->
+<!--                        <p>{{item}}</p>-->
+<!--                      </template>-->
+<!--                    </template>-->
+<!--                    <template is="dom-if" if="{{!isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
+<!--                      <template is="dom-repeat" items="[[asArray(item.MedlineCitation.Article.Abstract.AbstractText)]]">-->
+<!--                        <h3>{{item.key}}</h3>-->
+<!--                        <p>{{item.value}}</p>-->
+<!--                      </template>-->
+<!--                    </template>-->
+<!--                  </template>-->
+<!--                  <template is="dom-if" if="{{!isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
+<!--                    <p>{{item.MedlineCitation.Article.Abstract.AbstractText}}</p>-->
+<!--                  </template>-->
         <br/>
         <br/>
       </div>
@@ -94,6 +83,10 @@ class FetchApp extends PolymerElement {
     return {
       authors: {
         type: Object,
+        notify: true,
+      },
+      papers: {
+        type: Array,
         notify: true
       },
       loaded: {
@@ -117,6 +110,33 @@ class FetchApp extends PolymerElement {
 
   _dataLoaded(e) {
     this.loaded = true;
+    this.papers = [];
+
+    this.authors.forEach(author => {
+      if (author.data && author.data['PubmedArticle'] && Array.isArray(author.data['PubmedArticle'])) {
+        author.data['PubmedArticle'].forEach(paper => {
+          let year = paper['MedlineCitation']['DateRevised']['Year'];
+          let title = paper['MedlineCitation']['Article']['ArticleTitle'];
+
+          console.log(title);
+
+          if (!this.papers.includes(year)) {
+            this.papers.push(year);
+            this.papers[year] = {};
+            this.papers[year]['year'] = year;
+            this.papers[year]['titles'] = [];
+            this.papers[year]['articles'] = [];
+          }
+
+          if (!this.papers[year]['titles'].includes(title)) {
+            this.papers[year]['titles'].push(title);
+            this.papers[year]['articles'].push(paper);
+          }
+        });
+      } else {
+        console.warn('warning no data');
+      }
+    });
   }
 
   connectedCallback() {
