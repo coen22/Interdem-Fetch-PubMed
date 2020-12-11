@@ -57,22 +57,6 @@ class FetchApp extends PolymerElement {
             <h3>{{item.MedlineCitation.Article.ArticleTitle}}</h3>
           </template>
         </template>
-<!--                  <template is="dom-if" if="{{isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
-<!--                    <template is="dom-if" if="{{isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
-<!--                      <template is="dom-repeat" items="[[item.MedlineCitation.Article.Abstract.AbstractText]]">-->
-<!--                        <p>{{item}}</p>-->
-<!--                      </template>-->
-<!--                    </template>-->
-<!--                    <template is="dom-if" if="{{!isArray(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
-<!--                      <template is="dom-repeat" items="[[asArray(item.MedlineCitation.Article.Abstract.AbstractText)]]">-->
-<!--                        <h3>{{item.key}}</h3>-->
-<!--                        <p>{{item.value}}</p>-->
-<!--                      </template>-->
-<!--                    </template>-->
-<!--                  </template>-->
-<!--                  <template is="dom-if" if="{{!isObject(item.MedlineCitation.Article.Abstract.AbstractText)}}">-->
-<!--                    <p>{{item.MedlineCitation.Article.Abstract.AbstractText}}</p>-->
-<!--                  </template>-->
         <br/>
         <br/>
       </div>
@@ -87,6 +71,7 @@ class FetchApp extends PolymerElement {
       },
       papers: {
         type: Array,
+        value: [],
         notify: true
       },
       loaded: {
@@ -110,32 +95,35 @@ class FetchApp extends PolymerElement {
 
   _dataLoaded(e) {
     this.loaded = true;
-    this.papers = [];
 
-    this.authors.forEach(author => {
-      if (author.data && author.data['PubmedArticle'] && Array.isArray(author.data['PubmedArticle'])) {
-        author.data['PubmedArticle'].forEach(paper => {
-          let year = paper['MedlineCitation']['DateRevised']['Year'];
-          let title = paper['MedlineCitation']['Article']['ArticleTitle'];
+    let author = e.model.item;
 
-          console.log(title);
+    if (author.data && author.data['PubmedArticle'] && Array.isArray(author.data['PubmedArticle'])) {
+      author.data['PubmedArticle'].forEach(paper => {
+        let year = paper['MedlineCitation']['DateRevised']['Year'];
+        let title = paper['MedlineCitation']['Article']['ArticleTitle'];
 
-          if (!this.papers.includes(year)) {
-            this.papers.push(year);
-            this.papers[year] = {};
-            this.papers[year]['year'] = year;
-            this.papers[year]['titles'] = [];
-            this.papers[year]['articles'] = [];
-          }
+        if (!this.papers.includes(year)) {
+          let yearTmp = {};
 
-          if (!this.papers[year]['titles'].includes(title)) {
-            this.papers[year]['titles'].push(title);
-            this.papers[year]['articles'].push(paper);
-          }
-        });
-      } else {
-        console.warn('warning no data');
-      }
+          yearTmp['year'] = year;
+          yearTmp['titles'] = [];
+          yearTmp['articles'] = [];
+
+          this.papers.push(yearTmp);
+        }
+
+        if (!this.papers[year]['titles'].includes(title)) {
+          this.papers[year]['titles'].push(title);
+          this.papers[year]['articles'].push(paper);
+        }
+      });
+    } else {
+      console.warn('warning no data');
+    }
+
+    this.papers.sort(function (a, b) {
+      return a['year'] < b['year'];
     });
   }
 
