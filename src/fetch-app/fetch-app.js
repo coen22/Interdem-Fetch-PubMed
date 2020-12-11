@@ -50,11 +50,14 @@ class FetchApp extends PolymerElement {
             on-response="_dataLoaded">
           </iron-ajax>
         </template>
-        
-        <template is="dom-repeat" items="[[papers]]">
-          <h2>{{item.year}}</h2>
-          <template is="dom-repeat" items="[[item.articles]]">
-            <h3>{{item.MedlineCitation.Article.ArticleTitle}}</h3>
+
+        <template id="papersLayout" is="dom-repeat" items="[[papers]]">
+          <h2>{{item.name}}</h2>
+          <template is="dom-repeat" items="[[item.years]]">
+            <h3>{{item.year}}</h3>
+            <template is="dom-repeat" items="[[item.articles]]">
+              <p>{{item.MedlineCitation.Article.ArticleTitle}}</p>
+            </template>
           </template>
         </template>
         <br/>
@@ -71,7 +74,42 @@ class FetchApp extends PolymerElement {
       },
       papers: {
         type: Array,
-        value: [],
+        value: [
+          {
+            id: 0,
+            name: 'Diagnosis and development of symptoms',
+            keywords: [ 'diagnosis', 'symptoms']
+          },
+          {
+            id: 1,
+            name: 'Health Economics',
+            keywords: [ 'economics' ]
+          },
+          {
+            id: 2,
+            name: 'Organization of dementia care',
+            keywords: [ 'organization', 'organisation' ]
+          },
+          {
+            id: 3,
+            name: 'Persons need, quality of life and social/ethical issues',
+            keywords: [ 'social', 'ethical', 'ethics', 'persons need', 'quality of life' ]
+          },
+          {
+            id: 4,
+            name: 'Psychosocial interventions for persons with dementia',
+            keywords: [ 'interventions', 'persons with dementia' ]
+          },
+          {
+            id: 5,
+            name: 'Psychosocial interventions for caregivers',
+            keywords: [ 'interventions', 'caregivers' ]
+          },
+          {
+            name: 'Other',
+            keywords: []
+          }
+        ],
         notify: true
       },
       loaded: {
@@ -81,18 +119,6 @@ class FetchApp extends PolymerElement {
     };
   }
 
-  isObject(obj) {
-    return typeof obj === 'object' && obj !== null;
-  }
-
-  asArray(obj) {
-    return Object.entries(obj);
-  }
-
-  isArray(obj) {
-    return Array.isArray(obj);
-  }
-
   _dataLoaded(e) {
     this.loaded = true;
 
@@ -100,31 +126,112 @@ class FetchApp extends PolymerElement {
 
     if (author.data && author.data['PubmedArticle'] && Array.isArray(author.data['PubmedArticle'])) {
       author.data['PubmedArticle'].forEach(paper => {
-        let year = paper['MedlineCitation']['DateRevised']['Year'];
-        let title = paper['MedlineCitation']['Article']['ArticleTitle'];
+        if (paper['MedlineCitation'] && paper['MedlineCitation']['Article']) {
+          let year = paper['MedlineCitation']['DateRevised']['Year'];
+          let title = paper['MedlineCitation']['Article']['ArticleTitle'];
+          let abstract = '';
 
-        if (!this.papers.includes(year)) {
-          let yearTmp = {};
+          if (paper['MedlineCitation']['Article']['Abstract'] &&
+              paper['MedlineCitation']['Article']['Abstract']['AbstractText']) {
+            abstract = this.getAbstractText(paper['MedlineCitation']['Article']['Abstract']['AbstractText']);
+          }
 
-          yearTmp['year'] = year;
-          yearTmp['titles'] = [];
-          yearTmp['articles'] = [];
+          let text = (title + ' ' + abstract).toLowerCase();
+          let category = this.papers.sort((a, b) => {
+            let aMatches = 0;
 
-          this.papers.push(yearTmp);
-        }
+            a['keywords'].forEach(x => {
+              let regex = new RegExp(x, 'g');
+              let matches = text.match(regex);
+              if (matches)
+                aMatches += matches.length;
+            });
 
-        if (!this.papers[year]['titles'].includes(title)) {
-          this.papers[year]['titles'].push(title);
-          this.papers[year]['articles'].push(paper);
+            let bMatches = 0;
+
+            b['keywords'].forEach(x => {
+              let regex = new RegExp(x, 'g');
+              let matches = text.match(regex);
+              if (matches)
+                bMatches += matches.length;
+            });
+
+            return aMatches < bMatches;
+          })[0];
+          let categoryIdx = this.papers.indexOf(category);
+
+          if (!category['years'])
+            category['years'] = [];
+
+          if (category['years'].filter(x => x['year'] == year).length == 0) {
+            let yearTmp = {};
+
+            yearTmp['year'] = year;
+            yearTmp['titles'] = [];
+            yearTmp['articles'] = [];
+
+            category['years'].push(yearTmp);
+
+            category['years'].sort((a, b) => a['year'] < b['year']);
+          }
+
+          let categoryYear = null;
+          category['years'].forEach(x => {
+            if (x['year'] === year)
+              categoryYear = x;
+          });
+
+          let categoryYearIdx = category['years'].indexOf(category);
+
+          if (!categoryYear['titles'].includes(title)) {
+            categoryYear['titles'].push(title);
+
+            paper['abstract'] = abstract;
+            categoryYear['articles'].push(paper);
+          }
         }
       });
     } else {
       console.warn('warning no data');
     }
 
-    this.papers.sort(function (a, b) {
-      return a['year'] < b['year'];
+    this.papers.sort((a, b) => {
+      return a.id > b.id;
     });
+
+    this.$.papersLayout.render();
+  }
+
+  getAbstractText(obj) {
+    if (this.isObject(obj)) {
+      if (this.isArray(obj)) {
+        let res = '';
+
+        obj.forEach(item => res += item);
+
+        return res;
+      } else {
+        let res = '';
+
+        let tmp = Object.entries(obj);
+        tmp.forEach(item => res += item.value);
+
+        return res;
+      }
+    } else {
+      if (typeof  obj !== 'string')
+        console.warn('The data type didn\'t match');
+
+      return obj;
+    }
+  }
+
+  isObject(obj) {
+    return typeof obj === 'object' && obj !== null;
+  }
+
+  isArray(obj) {
+    return Array.isArray(obj);
   }
 
   connectedCallback() {

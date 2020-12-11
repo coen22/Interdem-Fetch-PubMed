@@ -29,6 +29,9 @@ if (file_exists($cacheUrl)) {
     # retrieve from cache
     $jsonText = file_get_contents($cacheUrl);
 } else {
+    # split author name
+    $authorSplit = explode('+', $author);
+
     # create search query
     $query = "dementia[mesh]+AND+$author" . "[AU]";
 
@@ -70,7 +73,7 @@ if (file_exists($cacheUrl)) {
         $xml = simplexml_load_string($data);
         $jsonText = json_encode($xml);
 
-        if ($jsonText != null && $jsonText != false) {
+        if ($jsonText != null) {
             $newFile = fopen($cacheUrl, "w");
             fwrite($newFile, $jsonText);
             fclose($newFile);
