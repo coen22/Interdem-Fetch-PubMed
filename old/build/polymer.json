@@ -1,0 +1,39 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/fetch-app/fetch-app.js",
+  "fragments": [],
+  "sources": [
+    "src/**.js",
+    "manifest/**",
+    "package.json",
+    "index.html",
+    "src/fetch-app/fetch-app.js"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js",
+    "node_modules/@webcomponents/webcomponentsjs/bundles/**",
+    "backend/**",
+    "data/**"
+  ],
+  "builds": [
+    {
+      "name": "es5-bundled",
+      "js": {
+        "minify": true,
+        "compile": "es5",
+        "transformModulesToAmd": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": false,
+      "addPushManifest": false,
+      "preset": "es5-bundled"
+    }
+  ],
+  "moduleResolution": "node"
+}

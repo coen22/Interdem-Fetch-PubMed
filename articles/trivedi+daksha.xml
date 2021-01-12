@@ -1,0 +1,2529 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29557193</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>02</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>03</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-2684</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>7-8</Issue>
+                    <PubDate>
+                        <MedlineDate>2019 Oct-Nov</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Dementia (London, England)</Title>
+                <ISOAbbreviation>Dementia (London)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Managing behavioural and psychological symptoms in community dwelling older people with dementia: 2. A systematic review of qualitative studies.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2950-2970</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1177/1471301218762856</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Braun</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Daksha P</ForeName>
+                    <Initials>DP</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0002-7572-4113</Identifier>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dickinson</LastName>
+                    <ForeName>Angela</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hamilton</LastName>
+                    <ForeName>Laura</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodman</LastName>
+                    <ForeName>Claire</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gage</LastName>
+                    <ForeName>Heather</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Economics, University of Surrey, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ashaye</LastName>
+                    <ForeName>Kunle</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mental Health Unit, Hertfordshire Partnership University NHS Foundation Trust, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Iliffe</LastName>
+                    <ForeName>Steve</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Primary Care and Population Health, University College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manthorpe</LastName>
+                    <ForeName>Jill</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0001-9006-1410</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Social Care Workforce Research Unit, King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>201</GrantID>
+                    <Acronym>ALZS_</Acronym>
+                    <Agency>Alzheimer's Society</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HTA/12/192/10</GrantID>
+                    <Acronym>DH_</Acronym>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HTA/13/75/01</GrantID>
+                    <Acronym>DH_</Acronym>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D000078182">Systematic Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>03</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Dementia (London)</MedlineTA>
+            <NlmUniqueID>101128698</NlmUniqueID>
+            <ISSNLinking>1471-3012</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="N">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019468" MajorTopicYN="Y">Disease Management</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057187" MajorTopicYN="Y">Independent Living</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">behavioural and psychological symptoms</Keyword>
+            <Keyword MajorTopicYN="N">carers</Keyword>
+            <Keyword MajorTopicYN="N">challenging behaviour</Keyword>
+            <Keyword MajorTopicYN="N">community</Keyword>
+            <Keyword MajorTopicYN="N">dementia</Keyword>
+            <Keyword MajorTopicYN="N">qualitative</Keyword>
+            <Keyword MajorTopicYN="N">systematic review</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>3</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>2</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>3</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29557193</ArticleId>
+            <ArticleId IdType="doi">10.1177/1471301218762856</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29557183</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>02</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>03</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-2684</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>7-8</Issue>
+                    <PubDate>
+                        <MedlineDate>2019 Oct-Nov</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Dementia (London, England)</Title>
+                <ISOAbbreviation>Dementia (London)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Managing behavioural and psychological symptoms in community dwelling older people with dementia: 1. A systematic review of the effectiveness of interventions.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2925-2949</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1177/1471301218762851</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Daksha P</ForeName>
+                    <Initials>DP</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0002-7572-4113</Identifier>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Braun</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dickinson</LastName>
+                    <ForeName>Angela</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Hertfordshire, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gage</LastName>
+                    <ForeName>Heather</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Surrey, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hamilton</LastName>
+                    <ForeName>Laura</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodman</LastName>
+                    <ForeName>Claire</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Hertfordshire, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ashaye</LastName>
+                    <ForeName>Kunle</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hertfordshire Partnership University NHS Foundation Trust, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Iliffe</LastName>
+                    <ForeName>Steve</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manthorpe</LastName>
+                    <ForeName>Jill</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0001-9006-1410</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>201</GrantID>
+                    <Acronym>ALZS_</Acronym>
+                    <Agency>Alzheimer's Society</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HTA/12/192/10</GrantID>
+                    <Acronym>DH_</Acronym>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HTA/13/75/01</GrantID>
+                    <Acronym>DH_</Acronym>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D000078182">Systematic Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>03</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Dementia (London)</MedlineTA>
+            <NlmUniqueID>101128698</NlmUniqueID>
+            <ISSNLinking>1471-3012</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="Y">Dementia</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="N">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019468" MajorTopicYN="Y">Disease Management</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057187" MajorTopicYN="Y">Independent Living</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016032" MajorTopicYN="N">Randomized Controlled Trials as Topic</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">behavioural and psychological symptoms</Keyword>
+            <Keyword MajorTopicYN="N">carers</Keyword>
+            <Keyword MajorTopicYN="N">challenging behaviour</Keyword>
+            <Keyword MajorTopicYN="N">community</Keyword>
+            <Keyword MajorTopicYN="N">dementia</Keyword>
+            <Keyword MajorTopicYN="N">systematic review</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>3</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>2</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>3</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29557183</ArticleId>
+            <ArticleId IdType="doi">10.1177/1471301218762851</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29235986</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>07</Month>
+            <Day>30</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>08</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2046-4924</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>75</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>12</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Health technology assessment (Winchester, England)</Title>
+                <ISOAbbreviation>Health Technol Assess</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Managing diabetes in people with dementia: a realist review.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-140</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3310/hta21750</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND">Dementia and diabetes mellitus are common long-term conditions that coexist in a large number of older people. People living with dementia and diabetes may be at increased risk of complications such as hypoglycaemic episodes because they are less able to manage their diabetes.</AbstractText>
+                <AbstractText Label="OBJECTIVES">To identify the key features or mechanisms of programmes that aim to improve the management of diabetes in people with dementia and to identify areas needing further research.</AbstractText>
+                <AbstractText Label="DESIGN">Realist review, using an iterative, stakeholder-driven, four-stage approach. This involved scoping the literature and conducting stakeholder interviews to develop initial programme theories, systematic searches of the evidence to test and develop the theories, and the validation of programme theories with a purposive sample of stakeholders.</AbstractText>
+                <AbstractText Label="PARTICIPANTS">Twenty-six stakeholders (user/patient representatives, dementia care providers, clinicians specialising in dementia or diabetes and researchers) took part in interviews and 24 participated in a consensus conference.</AbstractText>
+                <AbstractText Label="DATA SOURCES">The following databases were searched from 1990 to March 2016: MEDLINE (PubMed), Cumulative Index to Nursing and Allied Health Literature, Scopus, The Cochrane Library (including the Cochrane Database of Systematic Reviews), Database of Abstracts of Reviews of Effects, the Health Technology Assessment (HTA) database, NHS Economic Evaluation Database, AgeInfo (Centre for Policy on Ageing - UK), Social Care Online, the National Institute for Health Research (NIHR) portfolio database, NHS Evidence, Google (Google Inc., Mountain View, CA, USA) and Google Scholar (Google Inc., Mountain View, CA, USA).</AbstractText>
+                <AbstractText Label="RESULTS">We included 89 papers. Ten papers focused directly on people living with dementia and diabetes, and the rest related to people with dementia or diabetes or other long-term conditions. We identified six context-mechanism-outcome (CMO) configurations that provide an explanatory account of how interventions might work to improve the management of diabetes in people living with dementia. This includes embedding positive attitudes towards people living with dementia, person-centred approaches to care planning, developing skills to provide tailored and flexible care, regular contact, family engagement and usability of assistive devices. A general metamechanism that emerges concerns the synergy between an intervention strategy, the dementia trajectory and social and environmental factors, especially family involvement. A flexible service model for people with dementia and diabetes would enable this synergy in a way that would lead to the improved management of diabetes in people living with dementia.</AbstractText>
+                <AbstractText Label="LIMITATIONS">There is little evidence relating to the management of diabetes in people living with dementia, although including a wider literature provided opportunities for transferable learning. The outcomes in our CMOs are largely experiential rather than clinical. This reflects the evidence available. Outcomes such as increased engagement in self-management are potential surrogates for better clinical management of diabetes, but this is not proven.</AbstractText>
+                <AbstractText Label="CONCLUSIONS">This review suggests that there is a need to prioritise quality of life, independence and patient and carer priorities over a more biomedical, target-driven approach. Much current research, particularly that specific to people living with dementia and diabetes, identifies deficiencies in, and problems with, current systems. Although we have highlighted the need for personalised care, continuity and family-centred approaches, there is much evidence to suggest that this is not currently happening. Future research on the management of diabetes in older people with complex health needs, including those with dementia, needs to look at how organisational structures and workforce development can be better aligned to the needs of people living with dementia and diabetes.</AbstractText>
+                <AbstractText Label="STUDY REGISTRATION">This study is registered as PROSPERO CRD42015020625.</AbstractText>
+                <AbstractText Label="FUNDING">The NIHR HTA programme.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bunn</LastName>
+                    <ForeName>Frances</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, Hatfield, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodman</LastName>
+                    <ForeName>Claire</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, Hatfield, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jones</LastName>
+                    <ForeName>Peter Reece</ForeName>
+                    <Initials>PR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Russell</LastName>
+                    <ForeName>Bridget</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, Hatfield, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Daksha</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, Hatfield, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sinclair</LastName>
+                    <ForeName>Alan</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Foundation for Diabetes Research in Older People, Diabetes Frail Ltd, Luton, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bayer</LastName>
+                    <ForeName>Antony</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cochrane Institute of Primary Care and Public Health, Cardiff University, Cardiff, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rait</LastName>
+                    <ForeName>Greta</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Department of Primary Care and Population Health, University College London Medical School, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rycroft-Malone</LastName>
+                    <ForeName>Jo</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Burton</LastName>
+                    <ForeName>Chris</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>HTA/13/138/03</GrantID>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D017418">Meta-Analysis</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Health Technol Assess</MedlineTA>
+            <NlmUniqueID>9706284</NlmUniqueID>
+            <ISSNLinking>1366-5278</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000193" MajorTopicYN="Y">education</QualifierName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D032921" MajorTopicYN="N">Consensus</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="Y">complications</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003920" MajorTopicYN="N">Diabetes Mellitus</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019468" MajorTopicYN="Y">Disease Management</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007407" MajorTopicYN="N">Interviews as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018802" MajorTopicYN="N">Patient-Centered Care</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011788" MajorTopicYN="N">Quality of Life</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>7</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29235986</ArticleId>
+            <ArticleId IdType="doi">10.3310/hta21750</ArticleId>
+            <ArticleId IdType="pmc">PMC5742454</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Curated" Owner="NLM">
+        <PMID Version="1">28750628</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>29</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>03</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-7015</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>07</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC medicine</Title>
+                <ISOAbbreviation>BMC Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>What works for whom in the management of diabetes in people living with dementia: a realist review.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>141</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12916-017-0909-2</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND">Dementia and diabetes mellitus are common long-term conditions and co-exist in a large number of older people. People living with dementia (PLWD) may be less able to manage their diabetes, putting them at increased risk of complications such as hypoglycaemia. The aim of this review was to identify key mechanisms within different interventions that are likely to improve diabetes outcomes in PLWD.</AbstractText>
+                <AbstractText Label="METHODS">This is a realist review involving scoping of the literature and stakeholder interviews to develop theoretical explanations of how interventions might work, systematic searches of the evidence to test and develop the theories and their validation with a purposive sample of stakeholders. Twenty-six stakeholders - user/patient representatives, dementia care providers, clinicians specialising in diabetes or dementia and researchers - took part in interviews, and 24 participated in a consensus conference.</AbstractText>
+                <AbstractText Label="RESULTS">We included 89 papers. Ten focused on PLWD and diabetes, and the remainder related to people with either dementia, diabetes or other long-term conditions. We identified six context-mechanism-outcome configurations which provide an explanatory account of how interventions might work to improve the management of diabetes in PLWD. This includes embedding positive attitudes towards PLWD, person-centred approaches to care planning, developing skills to provide tailored and flexible care, regular contact, family engagement and usability of assistive devices. An overarching contingency emerged concerning the synergy between an intervention strategy, the dementia trajectory and social and environmental factors, especially family involvement.</AbstractText>
+                <AbstractText Label="CONCLUSIONS">Evidence highlighted the need for personalised care, continuity and family-centred approaches, although there was limited evidence that this happens routinely. This review suggests there is a need for a flexible service model that prioritises quality of life, independence and patient and carer priorities. Future research on the management of diabetes in older people with complex health needs, including those with dementia, needs to look at how organisational structures and workforce development can be better aligned to their needs.</AbstractText>
+                <AbstractText Label="TRIAL REGISTRATION">PROSPERO, CRD42015020625. Registered on 18 May 2015.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bunn</LastName>
+                    <ForeName>Frances</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, AL10 9AB, UK. f.bunn@herts.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodman</LastName>
+                    <ForeName>Claire</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, AL10 9AB, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reece Jones</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Russell</LastName>
+                    <ForeName>Bridget</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, AL10 9AB, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Daksha</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, AL10 9AB, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sinclair</LastName>
+                    <ForeName>Alan</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Foundation for Diabetes Research in Older People, Diabetes Frail Ltd, Luton, LU1 3UA, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bayer</LastName>
+                    <ForeName>Antony</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Population Medicine, Cardiff University, Cardiff, Wales, CF10 3AT, LL57 2EF, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rait</LastName>
+                    <ForeName>Greta</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Department of Primary Care and Population Health, UCL Medical School (Royal Free Campus), Rowland Hill Street, London, NW3 2PF, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rycroft-Malone</LastName>
+                    <ForeName>Jo</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Burton</LastName>
+                    <ForeName>Christopher</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, AL10 9AB, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>08/1809/231</GrantID>
+                    <Acronym>DH_</Acronym>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HTA/13/138/03</GrantID>
+                    <Acronym>DH_</Acronym>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Med</MedlineTA>
+            <NlmUniqueID>101190723</NlmUniqueID>
+            <ISSNLinking>1741-7015</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="Y">complications</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D048909" MajorTopicYN="N">Diabetes Complications</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003920" MajorTopicYN="N">Diabetes Mellitus</DescriptorName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011788" MajorTopicYN="N">Quality of Life</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Dementia</Keyword>
+            <Keyword MajorTopicYN="Y">Diabetes</Keyword>
+            <Keyword MajorTopicYN="Y">Realist review</Keyword>
+            <Keyword MajorTopicYN="Y">Realist synthesis</Keyword>
+            <Keyword MajorTopicYN="Y">Self-management</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>03</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>7</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28750628</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12916-017-0909-2</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12916-017-0909-2</ArticleId>
+            <ArticleId IdType="pmc">PMC5532771</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Alzheimers Res Ther. 2015 Mar 18;7(1):17</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25815063</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JAMA Intern Med. 2015 Dec;175(12):1994-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26502113</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Geriatr Nurs. 2016 May-Jun;37(3):186-91</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26804450</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Evid Based Nurs. 2017 Jan;20(1):26-27</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27934643</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>ANS Adv Nurs Sci. 2015 Apr-Jun;38(2):83-95</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25647829</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Expect. 2014 Apr;17(2):267-77</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22070529</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2013 May 13;346:f2882</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23670660</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med Res Methodol. 2012 Dec 20;12:188</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23256612</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Fam Process. 1987 Jun;26(2):203-21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">3595826</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2011 Sep;15(7):894-903</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21547750</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Geriatr Psychiatry. 2010 Oct;18(10):928-39</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20808145</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2017 Jan 18;7(1):e013067</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28100562</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2016 May;28(5):787-800</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26674087</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nurs Inq. 2013 Dec;20(4):341-51</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23336338</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2015 Jan;19(1):63-71</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24831511</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Soc Sci Med. 2013 Sep;93:86-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23906125</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Adv Nurs. 2010 Aug;66(8):1698-707</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20557395</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Adv Nurs. 2016 Jul;72 (7):1469-89</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26781649</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2012 Apr;35(4):787-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22374637</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Metab. 2011 Nov;37 Suppl 3:S27-38</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22183418</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabet Med. 2015 Nov;32(11):1404-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25865179</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>London J Prim Care (Abingdon). 2012;5(1):63-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25949671</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Syst Rev. 2016 Jan 07;5:5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26744074</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ageing Res Rev. 2013 Mar;12(2):535-51</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23318684</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2015 Jul;14(4):418-35</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24339106</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Psychiatry. 2016 Jul 08;16:222</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27391590</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Diabetes. 2014 Jan;32(1):12-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26246673</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Implement Sci. 2012 Apr 19;7:33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22515663</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Eur J Heart Fail. 2012 Sep;14 (9):1041-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22736737</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Pharm. 2016 Oct 30;512(2):396-404</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26721728</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med. 2014 Oct 31;12:192</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25358236</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Intern Med. 2003 Nov;18(11):893-902</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">14687274</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2016 May 17;6(5):e010652</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27188809</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Dis. 2015 Mar 10;6(2):156-67</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25821643</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Educ. 2017 Feb;43(1):40-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28118121</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol A Biol Sci Med Sci. 2007 Sep;62(9):1002-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17895439</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2016 Apr 27;4:CD011361</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27120555</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Geriatr. 2015 Jul 24;15:89</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26205957</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Int Neuropsychol Soc. 2012 Jan;18(1):1-19</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22152338</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Qual Health Res. 2015 Jan;25(1):87-98</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25192761</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Appl Gerontol. 2016 Nov;35(11):1154-1188</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25608870</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabet Med. 2010 Sep;27(9):1055-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20722680</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med. 2013 Jan 29;11:21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23360677</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nurs Outlook. 2009 Jul-Aug;57(4):217-225.e6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19631064</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Pilot Feasibility Stud. 2016 May 9;2:24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27965843</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2008 Jan 19;336(7636):134-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18171718</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2016 Mar;15(2):221-38</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24556001</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2013 Mar;36(3):543-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23193208</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Technol Ther. 2011 Oct;13(10):1005-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21718098</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2014 Mar 04;4(3):e004439</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24595135</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JMIR Res Protoc. 2016 Apr 05;5(2):e47</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27050401</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2014 May 30;4(5):e005356</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24879830</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Health Serv Res. 2016 Jan 14;16:10</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26762150</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2006 Dec 9;333(7580):1196</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17114212</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Health Serv Res Policy. 2005 Jul;10 Suppl 1:21-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16053581</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Nurs Stud. 2013 Sep;50(9):1184-96</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23384696</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Med Insights Endocrinol Diabetes. 2013 Oct 17;6:47-61</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24250240</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Public Health. 2011 Apr 10;11:222</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21477347</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Fam Pract. 2015 Feb 25;16:23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25886592</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2010 Jun;22(4):607-17</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20214844</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Fam Pract. 2015 Sep 02;16:112</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26330096</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Qual Life Outcomes. 2013 Oct 16;11:170</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24131673</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2012;16(5):576-83</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22360274</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2013 Jun 05;(6):CD003260</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23740535</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JMIR Res Protoc. 2016 Mar 01;5(1):e33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26932438</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabet Med. 2011 Jan;28(1):117-22</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21166853</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Diabetes Complications. 2016 Nov - Dec;30(8):1548-1554</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27524280</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2015;19(11):955-67</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25748797</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Health Serv Res. 2013 Aug 08;13:301</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23927490</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Geriatr Soc. 2016 Apr;64(4):752-60</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27060101</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Nurs Pract. 2015 May;21 Suppl 2:115-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26125579</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Geriatr Soc. 2005 Feb;53(2):306-11</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15673357</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Intern Med. 2015 Mar;30(3):319-26</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25421436</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Diabetes Res. 2016;2016:2483263</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27668261</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Comput Support Coop Work. 2014;23(3):245-267</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26321795</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JAMA Intern Med. 2015 Mar;175(3):356-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25581565</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2013 Jun 19;346:f3949</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23783357</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Trials. 2013 May 27;14 :152</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23710796</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Arch Intern Med. 2011 Feb 28;171(4):362-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21357814</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Patient Educ Couns. 2016 Jun;99(6):926-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26658704</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Nutr Health Aging. 2016 Jan;20(1):35-40</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26728931</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2014 Apr;29(4):331-44</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23963684</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Behav Med. 2012 Apr;35(2):190-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21503710</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2006 Mar;29(3):725-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16505540</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2015 Feb 10;350:h181</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25670186</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2013 Sep 10;347:f5264</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24022033</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nurs Times. 2015 Mar 4-10;111(10):16-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26285437</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Implement Sci. 2015 Sep 28;10:134</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26415961</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Patient Prefer Adherence. 2015 Sep 01;9:1243-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26366060</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabet Med. 2014 Sep;31(9):1024-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25131194</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2012 Oct 04;345:e6341</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23036829</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Diabetes Res. 2016;2016:7586385</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27891524</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2016 May 13;6(5):e011132</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27178978</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2015 Jan;38 Suppl:S67-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25537711</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Psychiatry Med. 2009;39(2):199-214</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19860078</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2013 Aug 3;382(9890):378-80</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23706758</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Technol Ther. 2016 Feb;18(2):59-67</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26645932</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Nurs Stud. 2014 Aug;51(8):1103-13</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24373719</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ageing Res Rev. 2010 Nov;9 Suppl 1:S18-22</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20849981</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Res Clin Pract. 2000 Dec;50(3):203-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11106835</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med. 2015 Apr 23;13:91</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25902803</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Implement Sci. 2014 Oct 21;9:129</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25331942</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2013 Jul;12(4):481-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24336956</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2004 Sep;19(9):817-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15352138</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2012 Nov 05;2(6):null</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23129571</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2010 Mar;14(2):220-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20336554</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Sociol Health Illn. 2016 Jul;38(6):854-73</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26871716</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28578720</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>08</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>08</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1477-1128</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Primary health care research &amp; development</Title>
+                <ISOAbbreviation>Prim Health Care Res Dev</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cochrane Review Summary: Mini-Mental State Examination (MMSE) for the detection of dementia in clinically unevaluated people aged 65 and over in community and primary care populations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>527-528</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1017/S1463423617000202</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Daksha</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Senior Research Fellow,Centre for Research in Primary and Community Care,University of Hertfordshire,Hatfield,UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Prim Health Care Res Dev</MedlineTA>
+            <NlmUniqueID>100897390</NlmUniqueID>
+            <ISSNLinking>1463-4236</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057187" MajorTopicYN="Y">Independent Living</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000073216" MajorTopicYN="Y">Mental Status and Dementia Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011320" MajorTopicYN="N">Primary Health Care</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Alzheimer’s</Keyword>
+            <Keyword MajorTopicYN="N">dementia</Keyword>
+            <Keyword MajorTopicYN="N">diagnosis</Keyword>
+            <Keyword MajorTopicYN="N">older people</Keyword>
+            <Keyword MajorTopicYN="N">primary care</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>8</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>6</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28578720</ArticleId>
+            <ArticleId IdType="pii">S1463423617000202</ArticleId>
+            <ArticleId IdType="doi">10.1017/S1463423617000202</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26744074</PMID>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>10</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>01</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2046-4053</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>5</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jan</Month>
+                        <Day>07</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Systematic reviews</Title>
+                <ISOAbbreviation>Syst Rev</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Managing diabetes in people with dementia: protocol for a realist review.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>5</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s13643-015-0182-4</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Worldwide, the prevalences of diabetes and dementia are both increasing, particularly in older people. Rates of diabetes in people with dementia are between 13 and 20 %. Diabetes management and diabetic self-care may be adversely affected by the presence of dementia. There is a need to know what interventions work best in the management of diabetes in people living with dementia (PLWD) in different settings and at different stages of the dementia trajectory. The overall aim is to develop an explanatory account or programme theory about 'what works' in the management of diabetes in people in what context and to identify promising interventions that merit further evaluation.</AbstractText>
+                <AbstractText Label="METHODS/DESIGN" NlmCategory="METHODS">This study uses a realist approach including studies on the management of diabetes in older people, medication management, diabetes-related self-care, workforce issues and assessment and treatment. We will use an iterative, stakeholder driven, four-stage approach. Phase 1: development of initial programme theory/ies through a first scoping of the literature and consultation with key stakeholder groups (user/patient representatives, dementia-care providers, clinicians, diabetes and dementia researchers and diabetes specialists). Phase 2: systematic searches of the evidence to test and develop the theories identified in phase 1. Phase 3: validation of programme theory/ies with a purposive sample of participants from phase 1. Phase 4: actionable recommendations for the management of diabetes in PLWD.</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">A realist synthesis of the evidence will provide a theoretical framework (i.e. an explanation of how interventions work, for whom, in what context and why) for practice and future research work that articulates the barriers and facilitators to effective management of diabetes in people with dementia. By providing possible explanations for the way in which interventions are thought to work and how change is achieved, it will demonstrate how to tailor an intervention to the setting and patient group. The propositions arising from the review will also inform the design of future intervention studies.</AbstractText>
+                <AbstractText Label="SYSTEMATIC REVIEW REGISTRATION" NlmCategory="BACKGROUND">PROSPERO registration number CRD42015020625.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bunn</LastName>
+                    <ForeName>Frances</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, UK. f.bunn@herts.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodman</LastName>
+                    <ForeName>Claire</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, UK. c.goodman@herts.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Malone</LastName>
+                    <ForeName>Jo Rycroft</ForeName>
+                    <Initials>JR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK. j.rycroft-malone@bangor.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jones</LastName>
+                    <ForeName>Peter Reece</ForeName>
+                    <Initials>PR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK. p.jones@bangor.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Burton</LastName>
+                    <ForeName>Chris</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Healthcare Sciences, Bangor University, Bangor, UK. c.burton@bangor.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rait</LastName>
+                    <ForeName>Greta</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Department of Primary Care and Population Health, UCL Medical School (Royal Free Campus), Rowland Hill Street, London, UK. g.rait@ucl.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Daksha</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Research in Primary and Community Care, University of Hertfordshire, College Lane, Hatfield, Hertfordshire, UK. d.trivedi@herts.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bayer</LastName>
+                    <ForeName>Antony</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cochrane Institute of Primary Care and Public Health, Cardiff University, Cardiff, UK. Bayer@cardiff.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sinclair</LastName>
+                    <ForeName>Alan</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Foundation for Diabetes Research in Older People, London, UK. ajsinclair@diabetesfrail.org.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>HTA/13/138/03</GrantID>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>01</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Syst Rev</MedlineTA>
+            <NlmUniqueID>101580575</NlmUniqueID>
+            <ISSNLinking>2046-4053</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="Y">complications</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003920" MajorTopicYN="N">Diabetes Mellitus</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012107" MajorTopicYN="Y">Research Design</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000078202" MajorTopicYN="N">Systematic Reviews as Topic</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>10</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26744074</ArticleId>
+            <ArticleId IdType="doi">10.1186/s13643-015-0182-4</ArticleId>
+            <ArticleId IdType="pii">10.1186/s13643-015-0182-4</ArticleId>
+            <ArticleId IdType="pmc">PMC4705581</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Diabetes Res Clin Pract. 2000 Dec;50(3):203-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11106835</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2001 Jun;24(6):1066-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11375372</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2001 Nov;24(11):1936-40</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11679460</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Res Clin Pract. 2003 Jul;61(1):59-67</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12849924</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Nurs. 2004 Mar;13(3a):45-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15028039</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Health Serv Res Policy. 2005 Jul;10 Suppl 1:21-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16053581</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2005 Nov 5;331(7524):1064-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16230312</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gerontologist. 2005 Oct;45 Spec No 1(1):11-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16230745</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet Neurol. 2006 Jan;5(1):64-74</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16361024</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Metab. 2005 Dec;31 Spec No 2:5S35-5S52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16415764</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2006 Mar;29(3):707-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16505533</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2006 Mar;29(3):725-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16505540</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Intern Med. 2007 Dec;22(12):1635-40</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17647065</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Drugs Aging. 2007;24(10):851-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17896833</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Med Health Care Philos. 2008 Dec;11(4):455-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18398697</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 2008 May;31(5):1046-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18445728</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Gen Pract. 2009 Jan;59(558):49-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19105916</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2009 Jan 21;(1):CD005268</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19160249</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetologia. 2009 Sep;52(9):1808-15</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19575177</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Psychiatry Med. 2009;39(2):199-214</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19860078</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabet Med. 2010 Jan;27(1):65-71</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20121891</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Geriatr Soc. 2010 Apr;58(4):724-30</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20398154</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Popul Health Metr. 2010 Oct 22;8:29</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20969750</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2010 Nov 17;5(11):e14024</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21103337</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Epidemiol. 2011 Jul;64(7):743-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21109401</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabet Med. 2011 Jan;28(1):117-22</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21166853</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Behav Med. 2012 Apr;35(2):190-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21503710</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Evid Based Healthc. 2008 Jun;6(2):137-72</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21631819</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Geriatr Soc. 2011 Dec;59(12):2263-72</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22150156</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Metab. 2011 Nov;37 Suppl 3:S27-38</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22183418</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intern Med J. 2012 May;42(5):484-91</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22372522</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Geriatr Soc. 2012 Apr;60(4):644-51</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22428535</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Implement Sci. 2012 Apr 19;7:33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22515663</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Gen Pract. 2012 Feb;62(595):e91-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22520775</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetologia. 2012 Jun;55(6):1577-96</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22526604</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Trials. 2012 Aug 07;13:133</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22871107</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Psychiatry. 2012 Sep;169(9):946-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22952073</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Geriatr Soc. 2012 Dec;60(12):2342-56</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23106132</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS Med. 2012 Oct;9(10):e1001331</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23118618</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med. 2013 Jan 29;11:21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23360677</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Syst Rev. 2013 Feb 12;2:12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23402391</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Alzheimers Dis Other Demen. 2013 May;28(3):228-38</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23528880</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2013 Mar 28;(3):CD008776</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23543567</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2013 Aug 3;382(9890):378-380</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23706758</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2013 Aug 3;382(9890):409-416</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23706759</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2013 Oct 26;382(9902):1386-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23948126</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Syst Rev. 2013 Aug 28;2:70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23985083</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2013 Oct 25;347:f6276</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24162942</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Prim Care Diabetes. 2014 Jul;8(2):91-100</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24525286</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabet Med. 2014 Sep;31(9):1024-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25131194</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med. 2014 Oct 31;12:192</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25358236</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nurs Older People. 2007 Jun 1;19(5):22-23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27726617</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Diabetes Care. 1997 Mar;20(3):438-45</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9051402</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23985083</PMID>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>09</Month>
+            <Day>19</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2046-4053</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2</Volume>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Aug</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Systematic reviews</Title>
+                <ISOAbbreviation>Syst Rev</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A protocol for a systematic review of research on managing behavioural and psychological symptoms in dementia for community-dwelling older people: evidence mapping and syntheses.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>70</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/2046-4053-2-70</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Non-cognitive behavioural and psychological symptoms of dementia affect up to 90% of people with dementia during the disease course and result in distress, increased carer burden, high service utilization and unwanted moves to care homes. Research has focused on long-term settings and has not considered people with dementia living at home and at different stages of the disease trajectory. Our aim is to review systematically the evidence concerning non-pharmacological strategies to minimise behavioural and psychological symptoms in community-dwelling older people with dementia.</AbstractText>
+                <AbstractText Label="METHODS/DESIGN" NlmCategory="METHODS">Our approach is a two-stage co-design: a systematic mapping of the broad evidence around behavioural and psychological symptoms followed by an in-depth systematic review of studies of non-pharmacological interventions for behavioural and psychological symptoms from the perspective of their impact on community-dwelling older people with dementia and their carers. The review will include published literature involving a wide range of electronic databases using sensitive and comprehensive searches and lateral searching including checking citations.We will produce a descriptive map of the studies by design and by the focus of interventions and apply further inclusion criteria, developed in conjunction with lay experts, to select studies for an in-depth systematic review that will include independent quality assessment and detailed data extraction by two reviewers.The review process will be integrated with stakeholder meetings and a multidisciplinary expert advisory group to guide the review parameters and shape the research questions on the management of behavioural and psychological symptoms in people with dementia. Because studies are likely to be diverse in methodology and interventions, we will conduct a narrative synthesis of the in-depth systematic review. If appropriate, we will pool studies in a meta-analysis. We will explore review findings at both stages through focus groups and interviews with service providers, practitioners, people with dementia and carers.</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">This integrated review in collaboration with key stakeholders will synthesise research evidence to identify appropriate interventions for effective management of behavioural and psychological symptoms that supports people with dementia living at home and their carers, and which reflects their priorities. It will make recommendations for research and practice.</AbstractText>
+                <AbstractText Label="STUDY REGISTRATION" NlmCategory="BACKGROUND">PROSPERO registration number: CRD42013004344.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Daksha</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Hertfordshire, Hatfield, UK. d.trivedi@herts.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goodman</LastName>
+                    <ForeName>Claire</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dickinson</LastName>
+                    <ForeName>Angela</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gage</LastName>
+                    <ForeName>Heather</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McLaughlin</LastName>
+                    <ForeName>Jennifer</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manthorpe</LastName>
+                    <ForeName>Jill</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ashaye</LastName>
+                    <ForeName>Kunle</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Iliffe</LastName>
+                    <ForeName>Steve</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>G0900011</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>PB-PG-0211-24078</GrantID>
+                    <Agency>Department of Health</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>08</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Syst Rev</MedlineTA>
+            <NlmUniqueID>101580575</NlmUniqueID>
+            <ISSNLinking>2046-4053</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="N">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012107" MajorTopicYN="Y">Research Design</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012111" MajorTopicYN="Y">Residence Characteristics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000078202" MajorTopicYN="Y">Systematic Reviews as Topic</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>06</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>08</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>9</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23985083</ArticleId>
+            <ArticleId IdType="pii">2046-4053-2-70</ArticleId>
+            <ArticleId IdType="doi">10.1186/2046-4053-2-70</ArticleId>
+            <ArticleId IdType="pmc">PMC3765841</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Health Technol Assess. 2006 Aug;10(26):iii, ix-108</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16849002</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Affect Disord. 2007 Aug;101(1-3):75-89</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17173977</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Soc Care Community. 2010 Mar;18(2):147-59</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19708867</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Nurs. 2010 Jan;19(1-2):33-41</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20500242</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2005 Apr;20(4):301-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15799081</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Obes Rev. 2010 May;11(5):338-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19780989</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2010 Jul;25(7):657-64</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19946862</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Geriatr. 2010;10:2</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20067613</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Psychiatry. 1997 Jan;170:62-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9068778</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med Res Methodol. 2008;8:45</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18616818</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2003;(4):CD003260</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">14583963</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2000 Feb;15(2):141-61</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10679846</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2005 Nov 5;331(7524):1064-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16230312</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2006 Mar 25;332(7543):692-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16565124</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Adv Nurs. 2003 Jan;41(2):162-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12519275</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Psychiatry. 2009 Mar;194(3):212-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19252147</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Psychol Aging. 2007 Mar;22(1):28-36</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17385980</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Adv Nurs. 2006 Apr;54(1):86-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16553694</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2007 Jan;22(1):9-22</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17096455</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Psychiatry. 2005 Nov;162(11):1996-2021</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16263837</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Educ Res. 2009 Dec;24(6):999-1028</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19407211</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2010 Apr;25(4):329-37</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19688739</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2000 Jul;15 Suppl 1:S2-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10767742</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2005;(2):CD001120</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15846613</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2009;339:b2700</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19622552</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2009;(4):CD003946</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19821317</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2009 Jul;13(4):512-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19629775</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia. 1995 Mar-Apr;6(2):108-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7606278</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2002;(4):CD003152</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12519587</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS Med. 2012 Oct;9(10):e1001331</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23118618</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2009 Apr;21(2):225-40</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18814806</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 1996 Aug 3;313(7052):275-83</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">8704542</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2009 Apr;21(2):241-51</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19138459</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

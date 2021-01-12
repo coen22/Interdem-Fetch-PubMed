@@ -1,0 +1,855 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">27633827</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>07</Month>
+            <Day>16</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>07</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1447-0594</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Geriatrics &amp; gerontology international</Title>
+                <ISOAbbreviation>Geriatr Gerontol Int</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Palliative care needs and symptoms of nursing home residents with and without dementia: A cross-sectional study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1501-1507</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/ggi.12903</ELocationID>
+            <Abstract>
+                <AbstractText Label="AIM" NlmCategory="OBJECTIVE">The aims of the present study were: (i) to describe palliative care needs and symptoms of older adults anticipated to be in the last year of their life in Flemish nursing homes (Belgium); and (ii) to evaluate whether these needs differ between residents with and without dementia.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A cross-sectional study was carried out in 2014. Nurses and nursing assistants in 15 Flemish nursing homes (Belgium) completed the Palliative care Outcome Scale for 109 residents with palliative care needs.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Pain, as well as other physical symptoms, was present in more than half of the nursing home residents according to caregivers. The most prominent needs occurred on psychosocial and spiritual domains, such as patient anxiety, support, finding life worth living and self-worth. Caregivers reported that residents with dementia experienced fewer physical symptoms apart from pain than did residents without dementia (coeffficient -0.73, 95% CI -1.18-0.84; P = 0.001. Furthermore, residents with dementia received higher scores on the items &quot;support&quot; (coefficient 0.75; 95% CI 0.15-1.34, P = 0.015), &quot;life worthwhile&quot; (coeffficient 0.58; 95% CI 0.090-1.07, P = 0.020) and &quot;self-worth&quot; (coefficient 0.58, 95% CI 0.13-1.03, P = 0.012).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">According to caregivers, residents with dementia experienced fewer other physical symptoms (e.g. nausea) than residents without dementia. This, however, might be a result of an underdetection of other symptoms in nursing home residents with dementia. Furthermore, most challenges in nursing homes lie within the spiritual and psychosocial domains of palliative care, particularly in people with dementia. These aspects should be integrated in the professional education of caregivers. Assessment tools might be of help to improve the identification of needs and symptoms. Geriatr Gerontol Int 2017; 17: 1501-1507.</AbstractText>
+                <CopyrightInformation>© 2016 Japan Geriatrics Society.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hermans</LastName>
+                    <ForeName>Kirsten</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>KU Leuven - University of Leuven, LUCAS, Center for Care Research and Consultancy, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cohen</LastName>
+                    <ForeName>Joachim</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>End-of-Life Care Research Group, Vrije Universiteit Brussel (VUB) &amp; Ghent University, Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Spruytte</LastName>
+                    <ForeName>Nele</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>KU Leuven - University of Leuven, LUCAS, Center for Care Research and Consultancy, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Van Audenhove</LastName>
+                    <ForeName>Chantal</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>KU Leuven - University of Leuven, LUCAS, Center for Care Research and Consultancy, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Declercq</LastName>
+                    <ForeName>Anja</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>KU Leuven - University of Leuven, LUCAS, Center for Care Research and Consultancy, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016448">Multicenter Study</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>09</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Japan</Country>
+            <MedlineTA>Geriatr Gerontol Int</MedlineTA>
+            <NlmUniqueID>101135738</NlmUniqueID>
+            <ISSNLinking>1447-0594</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001530" MajorTopicYN="N">Belgium</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000600" MajorTopicYN="Y">supply &amp; distribution</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003430" MajorTopicYN="N">Cross-Sectional Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+                <QualifierName UI="Q000451" MajorTopicYN="Y">nursing</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009017" MajorTopicYN="N">Morbidity</DescriptorName>
+                <QualifierName UI="Q000639" MajorTopicYN="N">trends</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009735" MajorTopicYN="Y">Nursing Homes</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010166" MajorTopicYN="N">Palliative Care</DescriptorName>
+                <QualifierName UI="Q000458" MajorTopicYN="Y">organization &amp; administration</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011795" MajorTopicYN="N">Surveys and Questionnaires</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">needs assessment</Keyword>
+            <Keyword MajorTopicYN="N">nursing homes</Keyword>
+            <Keyword MajorTopicYN="N">older adults</Keyword>
+            <Keyword MajorTopicYN="N">palliative care</Keyword>
+            <Keyword MajorTopicYN="N">symptom assessment</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>01</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>05</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>07</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>7</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>9</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27633827</ArticleId>
+            <ArticleId IdType="doi">10.1111/ggi.12903</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25962476</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-6712</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>30</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Scandinavian journal of caring sciences</Title>
+                <ISOAbbreviation>Scand J Caring Sci</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Agitation in dementia and the role of spatial and sensory interventions: experiences of professional and family caregivers.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>281-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/scs.12240</ELocationID>
+            <Abstract>
+                <AbstractText Label="AIM" NlmCategory="OBJECTIVE">There is a growing interest in environmental interventions to complement the psychosocial approaches to cope with agitation in dementia. The aim of this study was to present this evidence from literature and research to care practitioners and family carers in order to gather their reflections. In this way, we can identify experienced gaps in care practice and define needs for further research.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">A framework with seven types of environmental interventions for agitation in dementia was developed through literature review, referring to the impact of light, smell, noise, temperature, nature, colour and spatial configuration. This framework guided three expert panels, respectively, with family caregivers of persons with dementia (N = 5), professional home care workers (N = 12) and professional caregivers working in nursing homes (N = 10).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">All caregivers stressed the impact of agitation on their quality of life and on the quality of life of the person with dementia. Most caregivers were familiar with the impact of daylight, natural elements and domestic smells. Caregivers were unfamiliar with the specific effects of bright light therapy and were interested in more research on the effectiveness of light, temperature and spatial configuration. They stressed the individuality of agitation in dementia.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Caregivers already use sensory and spatial interventions to manage agitation, and they are interested in knowing more about feasible effective interventions. Caregivers need to be informed on the possible benefits of sensory environmental factors on coping with agitation. To this end, it is very useful to take the experiences of caregivers into account.</AbstractText>
+                <CopyrightInformation>© 2015 Nordic College of Caring Science.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Van Vracem</LastName>
+                    <ForeName>Marieke</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LUCAS, University of Leuven, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Spruytte</LastName>
+                    <ForeName>Nele</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LUCAS, University of Leuven, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Declercq</LastName>
+                    <ForeName>Anja</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LUCAS, University of Leuven, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Van Audenhove</LastName>
+                    <ForeName>Chantal</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LUCAS, University of Leuven, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>05</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Sweden</Country>
+            <MedlineTA>Scand J Caring Sci</MedlineTA>
+            <NlmUniqueID>8804206</NlmUniqueID>
+            <ISSNLinking>0283-9318</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>N</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000223" MajorTopicYN="N">Adaptation, Psychological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000451" MajorTopicYN="Y">nursing</QualifierName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D024802" MajorTopicYN="Y">Nurse's Role</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011595" MajorTopicYN="Y">Psychomotor Agitation</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">agitation</Keyword>
+            <Keyword MajorTopicYN="N">dementia</Keyword>
+            <Keyword MajorTopicYN="N">experiences</Keyword>
+            <Keyword MajorTopicYN="N">expert panels</Keyword>
+            <Keyword MajorTopicYN="N">family caregiver</Keyword>
+            <Keyword MajorTopicYN="N">professional caregiver</Keyword>
+            <Keyword MajorTopicYN="N">spatial and sensory interventions</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>03</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>5</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>5</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>4</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25962476</ArticleId>
+            <ArticleId IdType="doi">10.1111/scs.12240</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25534007</PMID>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>12</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1365-2648</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>71</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of advanced nursing</Title>
+                <ISOAbbreviation>J Adv Nurs</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Study protocol for 'we DECide': implementation of advance care planning for nursing home residents with dementia.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1156-68</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/jan.12601</ELocationID>
+            <Abstract>
+                <AbstractText Label="AIM" NlmCategory="OBJECTIVE">To evaluate the effects of 'we DECide', an educational intervention for nursing home staff on shared decision-making in the context of advance care planning for residents with dementia.</AbstractText>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Advance care planning (preparing care choices for when persons no longer have decision-making capacity) is of utmost importance for nursing home residents with dementia, but is mostly not realized for this group. Advance care planning consists of discussing care choices and making decisions and corresponds to shared decision-making (the involvement of persons and their families in care and treatment decisions).</AbstractText>
+                <AbstractText Label="DESIGN" NlmCategory="METHODS">This quasi-experimental pre-test-post-test study is conducted in 19 nursing homes (Belgium). Participants are nursing home staff.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">'We DECide' focuses on three crucial moments for discussing advance care planning: the time of admission, crisis situations and everyday conversations. The 'ACP-audit' assesses participants' views on the organization of advance care planning (organizational level), the 'OPTION scale' evaluates the degree of shared decision-making in individual conversations (clinical level) and the 'IFC-SDM Questionnaire' assesses participants' views on Importance, Frequency and Competence of realizing shared decision-making (clinical level). (Project funded: July 2010).</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">The study hypothesis is that 'we DECide' results in a higher realization of shared decision-making in individual conversations on advance care planning. A better implementation of advance care planning will lead to a higher quality of end-of-life care and more person-centred care. We believe our study will be of interest to researchers and to professional nursing home caregivers and policy-makers.</AbstractText>
+                <CopyrightInformation>© 2014 John Wiley &amp; Sons Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ampe</LastName>
+                    <ForeName>Sophie</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>KU Leuven, LUCAS, Centre for Care Research and Consultancy, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sevenants</LastName>
+                    <ForeName>Aline</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Coppens</LastName>
+                    <ForeName>Evelien</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Spruytte</LastName>
+                    <ForeName>Nele</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Smets</LastName>
+                    <ForeName>Tinne</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Declercq</LastName>
+                    <ForeName>Anja</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van Audenhove</LastName>
+                    <ForeName>Chantal</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D023361">Validation Study</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Adv Nurs</MedlineTA>
+            <NlmUniqueID>7609811</NlmUniqueID>
+            <ISSNLinking>0309-2402</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CitationSubset>N</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D032722" MajorTopicYN="Y">Advance Care Planning</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001530" MajorTopicYN="N" Type="Geographic">Belgium</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002985" MajorTopicYN="Y">Clinical Protocols</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003657" MajorTopicYN="N">Decision Making</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000451" MajorTopicYN="Y">nursing</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">advance care planning</Keyword>
+            <Keyword MajorTopicYN="N">care choices</Keyword>
+            <Keyword MajorTopicYN="N">dementia</Keyword>
+            <Keyword MajorTopicYN="N">education</Keyword>
+            <Keyword MajorTopicYN="N">end of life</Keyword>
+            <Keyword MajorTopicYN="N">nursing</Keyword>
+            <Keyword MajorTopicYN="N">residential facilities</Keyword>
+            <Keyword MajorTopicYN="N">shared decision-making</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25534007</ArticleId>
+            <ArticleId IdType="doi">10.1111/jan.12601</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">22882729</PMID>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>03</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2012</Year>
+            <Month>10</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1365-2702</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>21-22</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of clinical nursing</Title>
+                <ISOAbbreviation>J Clin Nurs</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Family caregiver perspectives on social relations of elderly residents with dementia in small-scale versus traditional long-term care settings in the Netherlands and Belgium.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3106-16</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/j.1365-2702.2012.04110.x</ELocationID>
+            <Abstract>
+                <AbstractText Label="AIMS AND OBJECTIVES" NlmCategory="OBJECTIVE">To provide insight into family caregiver perspectives on social relations within the 'caregiving triangle' between family caregiver, professional caregiver and elderly resident with dementia. Results were compared between traditional versus small-scale long-term care settings in the Netherlands and Belgium.</AbstractText>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Residential dementia care is shifting towards a more holistic and person-centred approach. Until now, little is known about family caregiver perspectives.</AbstractText>
+                <AbstractText Label="DESIGN" NlmCategory="METHODS">A quasi-experimental longitudinal design.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">This study was part of a larger research project focusing on the quality of life of residents with dementia in traditional and small-scale settings (n = 179). This study focused on family caregivers related to these residents (n = 64). They filled in a questionnaire containing 25 items (baseline and after 12 months) related to their perspectives on the interaction within the 'caregiving triangle'. Analyses were performed using mixed models and logistic regression.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Compared to traditional settings, family caregivers of relatives with dementia living in small-scale settings had more contact with the professional caregivers, were more satisfied with this contact and felt that staff paid more attention to their feelings as family members. They also reported that staff showed better listening skills towards the residents. Furthermore, compared to those in Belgium, family caregivers in the Netherlands perceived staff to be less hurried and more accepting of help from family and felt that staff more often takes the resident seriously.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">In the move towards more person-centred care for residents with dementia, this study finds preliminary evidence for the importance of integrating the family perspective.</AbstractText>
+                <AbstractText Label="RELEVANCE TO CLINICAL PRACTICE" NlmCategory="CONCLUSIONS">Gaining more insight into the perspectives of family caregivers on the social relations within the 'caregiving triangle' may provide knowledge about the importance of the social system surrounding elderly residents with dementia and can provide pointers for future research.</AbstractText>
+                <CopyrightInformation>© 2012 Blackwell Publishing Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>de Rooij</LastName>
+                    <ForeName>Alida H P  M</ForeName>
+                    <Initials>AH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>De Kievitshorst Care Centre, De Wever, Beneluxlaan, Tilburg University, Warandelaan, Tilburg, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luijkx</LastName>
+                    <ForeName>Katrien G</ForeName>
+                    <Initials>KG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Spruytte</LastName>
+                    <ForeName>Nele</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Emmerink</LastName>
+                    <ForeName>Peggy M J</ForeName>
+                    <Initials>PM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schols</LastName>
+                    <ForeName>Jos M G A</ForeName>
+                    <Initials>JM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Declercq</LastName>
+                    <ForeName>Anja G</ForeName>
+                    <Initials>AG</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>ISRCTN</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>ISRCTN23772945</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>08</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Clin Nurs</MedlineTA>
+            <NlmUniqueID>9207302</NlmUniqueID>
+            <ISSNLinking>0962-1067</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>N</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001530" MajorTopicYN="N" Type="Geographic">Belgium</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="Y">Caregivers</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000451" MajorTopicYN="Y">nursing</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005190" MajorTopicYN="Y">Family</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008134" MajorTopicYN="N">Long-Term Care</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008137" MajorTopicYN="N">Longitudinal Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009426" MajorTopicYN="N" Type="Geographic">Netherlands</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012919" MajorTopicYN="Y">Social Behavior</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>8</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>8</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>3</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">22882729</ArticleId>
+            <ArticleId IdType="doi">10.1111/j.1365-2702.2012.04110.x</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">12396755</PMID>
+        <DateCompleted>
+            <Year>2002</Year>
+            <Month>11</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>11</Month>
+            <Day>06</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1476-0835</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>75</Volume>
+                    <Issue>Pt 3</Issue>
+                    <PubDate>
+                        <Year>2002</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Psychology and psychotherapy</Title>
+                <ISOAbbreviation>Psychol Psychother</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The quality of the caregiving relationship in informal care for older adults with dementia and chronic psychiatric patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>295-311</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>The present study focuses on the dyadic relationship between a family carer and a patient. Besides clarifying the quality of the caregiving relationship in two populations of chronically ill patients, this investigation examines whether patient characteristics, carer characteristics and network characteristics are predictive of relationship quality in dementia caregiving. Partners, children or children-in-law caring for a relative suffering from dementia (N = 144) and partners or parents of persons suffering from chronic mental illness (N = 77) were interviewed with a semi-structured questionnaire. The measurement of relationship quality is based on the literature of Expressed Emotion and covers two dimensions: the level of criticism and the level of warmth. In general, the relationship between a carer and his or her chronically ill relative was marked by a low level of conflict or criticism and a high degree of warmth. The main predictors of a poorer relationship quality were disturbances in the patient's behaviour and the carer's perception of these disturbances. Our results suggest that, rather than limiting investigations to the burden experienced by the family carer, future research and interventions on chronically ill patients should focus on the quality of the carer-patient relationship and its determinants.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Spruytte</LastName>
+                    <ForeName>Nele</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LUCAS, Katholieke Universiteit Leuven, Belgium. nele.spruytte@med.kuleuven.ac.be</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Van Audenhove</LastName>
+                    <ForeName>Chantal</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lammertyn</LastName>
+                    <ForeName>Frans</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Storms</LastName>
+                    <ForeName>Gerrit</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Psychol Psychother</MedlineTA>
+            <NlmUniqueID>101135751</NlmUniqueID>
+            <ISSNLinking>1476-0835</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="Y">Caregivers</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002908" MajorTopicYN="N">Chronic Disease</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003072" MajorTopicYN="N">Cognition Disorders</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007398" MajorTopicYN="Y">Interpersonal Relations</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001523" MajorTopicYN="N">Mental Disorders</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2002</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>4</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2002</Year>
+                <Month>11</Month>
+                <Day>28</Day>
+                <Hour>4</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2002</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>4</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">12396755</ArticleId>
+            <ArticleId IdType="doi">10.1348/147608302320365208</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

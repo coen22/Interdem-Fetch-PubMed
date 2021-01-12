@@ -1,0 +1,2080 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Curated" Owner="NLM">
+        <PMID Version="1">32214803</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>08</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>08</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1178-1998</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <PubDate>
+                        <Year>2020</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Clinical interventions in aging</Title>
+                <ISOAbbreviation>Clin Interv Aging</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Scoping Review and Template Analysis of Manual-Based Complex Interventions in Dementia Care.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>363-371</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.2147/CIA.S237924</ELocationID>
+            <Abstract>
+                <AbstractText Label="Purpose" NlmCategory="UNASSIGNED">In dementia care, the complexity of psychosocial needs and contextual variables often demands nonpharmacological interventions of a complex nature. The purpose of this scoping review was to investigate (1) how manuals published in refereed journals explaining procedures of complex interventions in dementia care are structured and their content disseminated and (2) to provide recommendations for future manuals.</AbstractText>
+                <AbstractText Label="Methods" NlmCategory="UNASSIGNED">A systematic search was conducted using four databases (Embase, PsychInfo, CINAHL and Scopus) following PRISMA-ScR and PICo method. The results were analysed using template analysis aiming to describe the possibility of tailoring the intervention, degree of flexibility of the manual and dissemination elements used in the manual.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">A total of 882 records were identified, and 86 full-text articles were assessed. Nine articles containing manuals met the inclusion criteria. All of the included manuals allowed the user to tailor actions in the intervention to specific situations. Two-thirds of the manuals showed a medium degree of flexibility. The types of dissemination elements varied. All used written text, and some used various graphical organisers such as headlines and lists. None used illustrations or audio/video material.</AbstractText>
+                <AbstractText Label="Conclusion" NlmCategory="UNASSIGNED">Currently, only few manuals for complex interventions in the field of dementia are published in refereed journals, all disseminated as written text. For future manuals, we suggest considering the inclusion of illustrations and/or audio/video material to describe actions, to allow for tailoring of the intervention, and to maintain a medium or low degree of flexibility by structuring the content hierarchically in phases while providing the user with detailed description of what to do, and how to decide what to.</AbstractText>
+                <CopyrightInformation>© 2020 Anderson-Ingstrup and Ridder.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Anderson-Ingstrup</LastName>
+                    <ForeName>Jens</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">0000-0001-5709-3664</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Communication and Psychology, Doctoral Programme in Music Therapy, Aalborg University, Aalborg, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ridder</LastName>
+                    <ForeName>Hanne Mette</ForeName>
+                    <Initials>HM</Initials>
+                    <Identifier Source="ORCID">0000-0002-3204-5997</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Communication and Psychology, Doctoral Programme in Music Therapy, Aalborg University, Aalborg, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2020</Year>
+                <Month>03</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>New Zealand</Country>
+            <MedlineTA>Clin Interv Aging</MedlineTA>
+            <NlmUniqueID>101273480</NlmUniqueID>
+            <ISSNLinking>1176-9092</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D033181" MajorTopicYN="N">Information Dissemination</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008370" MajorTopicYN="Y">Manuals as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010506" MajorTopicYN="N">Periodicals as Topic</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">complex intervention</Keyword>
+            <Keyword MajorTopicYN="N">dementia</Keyword>
+            <Keyword MajorTopicYN="N">ecopsychosocial intervention</Keyword>
+            <Keyword MajorTopicYN="N">manual-based intervention</Keyword>
+            <Keyword MajorTopicYN="N">nonpharmacological intervention</Keyword>
+        </KeywordList>
+        <CoiStatement>Mr Jens Anderson-Ingstrup report grants from Velux Foundations, during the conduct of the study. The authors report no other conflicts of interest in this work.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2020</Year>
+                <Month>01</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>3</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>3</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32214803</ArticleId>
+            <ArticleId IdType="doi">10.2147/CIA.S237924</ArticleId>
+            <ArticleId IdType="pii">237924</ArticleId>
+            <ArticleId IdType="pmc">PMC7078667</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>BMC Geriatr. 2011 Mar 24;11:12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21435251</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Behav Res Ther. 1996 Apr;34(4):295-314</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">8871362</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2014 Aug;29(8):797-807</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24535885</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Nurs Stud. 2013 May;50(5):587-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23159157</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Alzheimers Dis Other Demen. 2016 Sep;31(6):502-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27284206</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gerontologist. 2004 Dec;44(6):797-806</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15611216</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Qual Res Psychol. 2015 Apr 3;12(2):202-222</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27499705</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ann Intern Med. 2018 Oct 2;169(7):467-473</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30178033</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS Med. 2009 Jul 21;6(7):e1000097</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19621072</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Adv Nurs. 2006 Sep;55(6):678-88</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16925616</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Alzheimers Dis Other Demen. 2016 Jun;31(4):311-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26385947</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2016 May;31(5):475-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26352192</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Aging Hum Dev. 1995;41(2):89-107</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">8550234</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2008 Sep 29;337:a1655</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18824488</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2009 Dec;24(12):1386-95</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19370714</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gerontol Geriatr Educ. 2012;33(4):402-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23095223</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2013 Sep 10;347:f3755</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24021722</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Child Abuse Negl. 2011 Dec;35(12):1053-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22079873</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2018 Jun 13;:</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29900592</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2012 Jan;27(1):40-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21370278</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">30928926</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>04</Month>
+            <Day>03</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>04</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2044-6055</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>9</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>03</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMJ open</Title>
+                <ISOAbbreviation>BMJ Open</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Music Interventions for Dementia and Depression in ELderly care (MIDDEL): protocol and statistical analysis plan for a multinational cluster-randomised trial.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e023436</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1136/bmjopen-2018-023436</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION">In older adults, dementia and depression are associated with individual distress and high societal costs. Music interventions such as group music therapy (GMT) and recreational choir singing (RCS) have shown promising effects, but their comparative effectiveness across clinical subgroups is unknown. This trial aims to determine effectiveness of GMT, RCS and their combination for care home residents and to examine heterogeneity of treatment effects across subgroups.</AbstractText>
+                <AbstractText Label="METHODS AND ANALYSIS">This large, pragmatic, multinational cluster-randomised controlled trial with a 2×2 factorial design will compare the effects of GMT, RCS, both or neither, for care home residents aged 65 years or older with dementia and depressive symptoms. We will randomise 100 care home units with ≥1000 residents in total across eight countries. Each intervention will be offered for 6 months (3 months 2 times/week followed by 3 months 1 time/week), with extension allowed if locally available. The primary outcome will be the change in the Montgomery-Åsberg Depression Rating Scale score at 6 months. Secondary outcomes will include depressive symptoms, cognitive functioning, neuropsychiatric symptoms, psychotropic drug use, caregiver burden, quality of life, mortality and costs over at least 12 months. The study has 90% power to detect main effects and is also powered to determine interaction effects with gender, severity and socioeconomic status.</AbstractText>
+                <AbstractText Label="ETHICS AND DISSEMINATION">Ethical approval has been obtained for one country and will be obtained for all countries. Results will be presented at national and international conferences and published in scientific journals.</AbstractText>
+                <AbstractText Label="TRIAL REGISTRATION NUMBERS">NCT03496675; Pre-results, ACTRN12618000156280.</AbstractText>
+                <CopyrightInformation>© Author(s) (or their employer(s)) 2019. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gold</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">0000-0002-8654-7474</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>GAMUT - The Grieg Academy Music Therapy Research Centre, NORCE Norwegian Research Centre, Bergen, Norway.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eickholt</LastName>
+                    <ForeName>Jasmin</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Applied Social Sciences, University of Applied Sciences Würzburg-Schweinfurt, Würzburg, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Assmus</LastName>
+                    <ForeName>Jörg</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GAMUT - The Grieg Academy Music Therapy Research Centre, NORCE Norwegian Research Centre, Bergen, Norway.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stige</LastName>
+                    <ForeName>Brynjulf</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GAMUT - The Grieg Academy Music Therapy Research Centre, NORCE Norwegian Research Centre, Bergen, Norway.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wake</LastName>
+                    <ForeName>Jo Dugstad</ForeName>
+                    <Initials>JD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NORCE Norwegian Research Centre, Bergen, Norway.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baker</LastName>
+                    <ForeName>Felicity Anne</ForeName>
+                    <Initials>FA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Fine Arts and Music, University of Melbourne, Southbank, Victoria, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tamplin</LastName>
+                    <ForeName>Jeanette</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Fine Arts and Music, University of Melbourne, Southbank, Victoria, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Clark</LastName>
+                    <ForeName>Imogen</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Fine Arts and Music, University of Melbourne, Southbank, Victoria, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Young-Eun Claire</ForeName>
+                    <Initials>YC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Fine Arts and Music, University of Melbourne, Southbank, Victoria, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jacobsen</LastName>
+                    <ForeName>Stine Lindahl</ForeName>
+                    <Initials>SL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Communication and Psychology, Aalborg University, Aalborg, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ridder</LastName>
+                    <ForeName>Hanne Mette Ochsner</ForeName>
+                    <Initials>HMO</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Communication and Psychology, Aalborg University, Aalborg, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kreutz</LastName>
+                    <ForeName>Gunter</ForeName>
+                    <Initials>G</Initials>
+                    <Identifier Source="ORCID">0000-0001-9586-241X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Music, Carl von Ossietzky University Oldenburg, Oldenburg, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Muthesius</LastName>
+                    <ForeName>Dorothea</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Berlin University of the Arts, Berlin, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wosch</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Applied Social Sciences, University of Applied Sciences Würzburg-Schweinfurt, Würzburg, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ceccato</LastName>
+                    <ForeName>Enrico</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Mental Health, Azienda ULSS 8 Berica, Vicenza, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Raglio</LastName>
+                    <ForeName>Alfredo</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">0000-0003-3047-8948</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Music Therapy Research Laboratory, Istituti Clinici Scientifici Maugeri IRCCS, Pavia, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ruggeri</LastName>
+                    <ForeName>Mirella</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Public Health and Community Medicine, University of Verona, Verona, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vink</LastName>
+                    <ForeName>Annemiek</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of General Practice and Elderly Care Medicine, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Music therapy Department, Academy of Music, ArtEZ University of the Arts, Enschede, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zuidema</LastName>
+                    <ForeName>Sytse</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of General Practice and Elderly Care Medicine, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Odell-Miller</LastName>
+                    <ForeName>Helen</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Cambridge Institute for Music Therapy Research, Anglia Ruskin University, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Orrell</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Mental Health, University of Nottingham, Nottingham, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schneider</LastName>
+                    <ForeName>Justine</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Sociology and Social Policy, University of Nottingham, Nottingham, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kubiak</LastName>
+                    <ForeName>Christine</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>European Clinical Research Infrastructure Network (ECRIN), Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Romeo</LastName>
+                    <ForeName>Renee</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>King's Health Economics, King's College London, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Geretsegger</LastName>
+                    <ForeName>Monika</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>GAMUT - The Grieg Academy Music Therapy Research Centre, NORCE Norwegian Research Centre, Bergen, Norway.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>ClinicalTrials.gov</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>NCT03496675</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+                <DataBank>
+                    <DataBankName>ANZCTR</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>ACTRN12618000156280</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType UI="D000078325">Clinical Trial Protocol</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>03</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMJ Open</MedlineTA>
+            <NlmUniqueID>101552874</NlmUniqueID>
+            <ISSNLinking>2044-6055</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016000" MajorTopicYN="N">Cluster Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003863" MajorTopicYN="N">Depression</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015577" MajorTopicYN="N">Geriatric Assessment</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006707" MajorTopicYN="N">Homes for the Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015337" MajorTopicYN="N">Multicenter Studies as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009147" MajorTopicYN="N">Music Therapy</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009735" MajorTopicYN="Y">Nursing Homes</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011788" MajorTopicYN="N">Quality of Life</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016032" MajorTopicYN="N">Randomized Controlled Trials as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057173" MajorTopicYN="N">Recreation Therapy</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D063346" MajorTopicYN="Y">Singing</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">care homes</Keyword>
+            <Keyword MajorTopicYN="Y">dementia</Keyword>
+            <Keyword MajorTopicYN="Y">depression &amp; mood disorders</Keyword>
+            <Keyword MajorTopicYN="Y">music interventions</Keyword>
+            <Keyword MajorTopicYN="Y">music therapy</Keyword>
+            <Keyword MajorTopicYN="Y">neurology</Keyword>
+            <Keyword MajorTopicYN="Y">old age psychiatry</Keyword>
+            <Keyword MajorTopicYN="Y">psychiatry</Keyword>
+        </KeywordList>
+        <CoiStatement>Competing interests: None declared.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>4</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>4</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>4</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30928926</ArticleId>
+            <ArticleId IdType="pii">bmjopen-2018-023436</ArticleId>
+            <ArticleId IdType="doi">10.1136/bmjopen-2018-023436</ArticleId>
+            <ArticleId IdType="pmc">PMC6475205</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Nat Rev Neurol. 2011 May 03;7(6):323-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21537355</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2016 Nov;31(11):1188-1198</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27094452</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Geriatr Psychiatry. 2012 Nov;20(11):985-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21989316</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Nurs. 2013 May;22(9-10):1203-16</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23574287</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2012 Sep 04;345:e5661</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22951546</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Scand J Prim Health Care. 2011 Dec;29(4):252-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22126226</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Neurology. 1997 May;48(5 Suppl 6):S10-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9153155</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Psychol Med. 2015 Nov;45(15):3269-79</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26165748</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Rev Neurosci. 2014 Mar;15(3):170-80</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24552785</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Technol Assess. 2014 Jun;18(39):1-226, v-vi</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24947468</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 1996 Dec 21-28;313(7072):1577-80</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">8990990</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Psychosom Med. 2002 May-Jun;64(3):510-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12021425</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Psychiatry. 2013 May;202(5):329-35</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23637108</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2014;18(6):706-16</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24410398</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2018 Jul 23;7:CD003477</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30033623</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Public Health. 2015 Oct 13;15:1049</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26463176</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cereb Cortex. 2009 Nov;19(11):2579-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19240137</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2008 Sep 29;337:a1655</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18824488</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2013 Mar;25(3):431-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23194852</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2017 Feb;21(2):147-155</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26457893</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Technol Assess. 1999;3(5):iii-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10982317</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ann Intern Med. 2017 Jul 4;167(1):40-47</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28630973</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Qual Life Res. 2015 Feb;24(2):315-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25129054</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JAMA Psychiatry. 2015 May;72(5):438-45</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25786075</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Psychiatry Suppl. 2000;(39):s28-33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10945075</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Psychiatry. 2011 Aug;199(2):132-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21474494</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Psychiatry. 1979 Apr;134:382-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">444788</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JAMA. 2014 Oct 1;312(13):1342-3</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25268441</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Arch Gerontol Geriatr. 2010 Mar-Apr;50(2):227-30</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19414202</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Med Dir Assoc. 2014;15(11):850.e1-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25284165</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2013 Jul 08;3(7):</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23836761</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Qual Life Outcomes. 2015 Feb 07;13:17</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25881204</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2008 Jan;12(1):14-29</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18297476</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2015 Sep;14(5):659-79</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24381215</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ageing Res Rev. 2017 May;35:1-11</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28025173</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2017 Nov 16;11:CD004517</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29144545</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Front Psychol. 2017 May 16;8:742</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28559865</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2010 Nov;14(8):900-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21069596</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Med Dir Assoc. 2011 Oct;12(8):573-577</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21450177</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Brain. 2015 Aug;138(Pt 8):2438-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26041611</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2018 Sep;22(9):1097-1106</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28691506</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Geriatr. 2015 Jul 18;15:84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26183582</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Pharmacoepidemiol Drug Saf. 2017 Feb;26(2):192-200</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27935150</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ageing Res Rev. 2013 Mar;12(2):628-41</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23511664</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Neurology. 1993 Nov;43(11):2412-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">8232972</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Neuropsychiatry Clin Neurosci. 2000 Spring;12(2):233-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11001602</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Front Neurol. 2012 May 07;3:73</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22586419</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JAMA. 2017 Jun 27;317(24):2470-2471</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28586832</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2013;17(6):667-78</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23621805</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2015 May 08;350:h2147</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25956159</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ageing Soc. 1992;12:269-87</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11654434</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Curated" Owner="NLM">
+        <PMID Version="1">30053091</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>09</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>10</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2053-7395</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>55</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Sep</Month>
+                        <Day>08</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of music therapy</Title>
+                <ISOAbbreviation>J Music Ther</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Indirect Music Therapy Practice and Skill-Sharing in Dementia Care.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>255-279</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/jmt/thy012</ELocationID>
+            <Abstract>
+                <AbstractText>Public interest in the benefits of music for people with dementia has rapidly increased in recent years. In addition to clinical work with clients, music therapists are often required to support and train staff, families, and volunteers and skill-share some music therapeutic skills. Six music therapy researchers from six countries agreed it was timely to organize a roundtable and share their indirect music therapy practice and examples of skill-sharing in dementia care. This article was developed following the roundtable at the World Congress of Music Therapy in 2017 and further discussion among the authors. This process highlighted the diversity and complexity of indirect music therapy practice and skill-sharing, but some common components emerged, including: 1) the importance of making clinical decisions about when direct music therapy is necessary and when indirect music therapy is appropriate, 2) supporting the transition from direct music therapy to indirect music therapy, 3) the value of music therapy skill-sharing in training care home staff, 4) the need for considering potential risks and burdens of indirect music therapy practice, and 5) expanding the role of music therapist and cultivating cross-professional dialogues to support organizational changes. In indirect music therapy practice, a therapist typically works with carers and supporters to strengthen their relationships with people with dementia and help them further develop their self-awareness and sense of competence. However, the ultimate goal of indirect music therapy practice in dementia care remains the wellbeing of people living with dementia.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>McDermott</LastName>
+                    <ForeName>Orii</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Nottingham and Aalborg University.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ridder</LastName>
+                    <ForeName>Hanne Mette</ForeName>
+                    <Initials>HM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Aalborg University.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Baker</LastName>
+                    <ForeName>Felicity Anne</ForeName>
+                    <Initials>FA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Melbourne.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wosch</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Applied Sciences Würzburg-Schweinfurt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ray</LastName>
+                    <ForeName>Kendra</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>MJHS.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stige</LastName>
+                    <ForeName>Brynjulf</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Bergen.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Music Ther</MedlineTA>
+            <NlmUniqueID>0014162</NlmUniqueID>
+            <ISSNLinking>0022-2917</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005190" MajorTopicYN="N">Family</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009146" MajorTopicYN="N">Music</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009147" MajorTopicYN="Y">Music Therapy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011368" MajorTopicYN="N">Professional-Family Relations</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>7</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>7</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30053091</ArticleId>
+            <ArticleId IdType="pii">5056495</ArticleId>
+            <ArticleId IdType="doi">10.1093/jmt/thy012</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">24524811</PMID>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>12</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>12</Month>
+            <Day>10</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1741-203X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International psychogeriatrics</Title>
+                <ISOAbbreviation>Int Psychogeriatr</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A preliminary psychometric evaluation of Music in Dementia Assessment Scales (MiDAS).</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1011-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1017/S1041610214000180</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Music in Dementia Assessment Scales (MiDAS), an observational outcome measure for music therapy with people with moderate to severe dementia, was developed from qualitative data of focus groups and interviews. Expert and peer consultations were conducted at each stage of the scale development to maximize its content validity. This study aimed to evaluate the psychometric properties of MiDAS.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Care home residents with dementia attended weekly group music therapy for up to ten sessions. Music therapists and care home staff were requested to complete weekly MiDAS ratings. The Quality of Life Scale (QoL-AD) was completed at three time-points.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">A total of 629 (staff = 306, therapist = 323) MiDAS forms were completed. The statistical analysis revealed that MiDAS has high therapist inter-rater reliability, low staff inter-rater reliability, adequate staff test-retest reliability, adequate concurrent validity, and good construct validity. High factor loadings between the five MiDAS Visual Analogue Scale (VAS) items, levels of Interest, Response, Initiation, Involvement, and Enjoyment, were found.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This study indicates that MiDAS has good psychometric properties despite the small sample size. Future research with a larger sample size could provide a more in-depth psychometric evaluation, including further exploration of the underlying factors. MiDAS provides a measure of engagement with musical experience and offers insight into who is likely to benefit on other outcomes such as quality of life or reduction in psychiatric symptoms.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>McDermott</LastName>
+                    <ForeName>Orii</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Psychiatry, Faculty of Brain Sciences, University College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Orgeta</LastName>
+                    <ForeName>Vasiliki</ForeName>
+                    <Initials>V</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Psychiatry, Faculty of Brain Sciences, University College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ridder</LastName>
+                    <ForeName>Hanne Mette</ForeName>
+                    <Initials>HM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Doctoral Programme in Music Therapy, Institute for Communication and Psychology, Aalborg University, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Orrell</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Psychiatry, Faculty of Brain Sciences, University College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>02</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Int Psychogeriatr</MedlineTA>
+            <NlmUniqueID>9007918</NlmUniqueID>
+            <ISSNLinking>1041-6102</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009147" MajorTopicYN="Y">Music Therapy</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009483" MajorTopicYN="N">Neuropsychological Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015588" MajorTopicYN="N">Observer Variation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011594" MajorTopicYN="N">Psychometrics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011788" MajorTopicYN="N">Quality of Life</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015203" MajorTopicYN="N">Reproducibility of Results</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011795" MajorTopicYN="N">Surveys and Questionnaires</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016896" MajorTopicYN="N">Treatment Outcome</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>2</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>2</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24524811</ArticleId>
+            <ArticleId IdType="pii">S1041610214000180</ArticleId>
+            <ArticleId IdType="doi">10.1017/S1041610214000180</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">24410398</PMID>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>09</Month>
+            <Day>19</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>01</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1364-6915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2014</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Aging &amp; mental health</Title>
+                <ISOAbbreviation>Aging Ment Health</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The importance of music for people with dementia: the perspectives of people with dementia, family carers, staff and music therapists.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>706-16</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1080/13607863.2013.875124</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">Despite the popularity of music-based interventions in dementia care, there is a limited knowledge of how and why people with dementia find music beneficial for their well-being. A qualitative study was conducted to develop further insights into the musical experiences of people with dementia and explore the meaning of music in their lives.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">Separate focus groups and interviews with (1) care home residents with dementia and their families, (2) day hospital clients with dementia, (3) care home staff, and (4) music therapists, were conducted. The findings of the thematic analysis were investigated further in the light of psychosocial factors with the aim of developing a theoretical model on music in dementia.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Six key themes were identified. The accessibility of music for people at all stages of dementia, close links between music, personal identity and life events, the importance of relationship-building through music making were particularly highlighted as valuable. The psychosocial model of music in dementia was developed. The model revealed the importance of music to support the personal psychology of people with dementia and the social psychology of the care home environment.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The effects of music go beyond the reduction of behavioural and psychological symptoms. Individual preference of music is preserved throughout the process of dementia. Sustaining musical and interpersonal connectedness would help value who the person is and maintain the quality of their life.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>McDermott</LastName>
+                    <ForeName>Orii</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Mental Health Sciences Unit, Faculty of Brain Sciences , University College London , London , UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Orrell</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ridder</LastName>
+                    <ForeName>Hanne Mette</ForeName>
+                    <Initials>HM</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>01</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Aging Ment Health</MedlineTA>
+            <NlmUniqueID>9705773</NlmUniqueID>
+            <ISSNLinking>1360-7863</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000488" MajorTopicYN="N">Allied Health Personnel</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017144" MajorTopicYN="N">Focus Groups</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006699" MajorTopicYN="N">Home Care Services</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008960" MajorTopicYN="N">Models, Psychological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009147" MajorTopicYN="Y">Music Therapy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011593" MajorTopicYN="N">Psychology, Social</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D036301" MajorTopicYN="N">Qualitative Research</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006113" MajorTopicYN="N">United Kingdom</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">dementia</Keyword>
+            <Keyword MajorTopicYN="N">music</Keyword>
+            <Keyword MajorTopicYN="N">personal psychology</Keyword>
+            <Keyword MajorTopicYN="N">psychosocial model</Keyword>
+            <Keyword MajorTopicYN="N">social psychology</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>1</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>1</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>9</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24410398</ArticleId>
+            <ArticleId IdType="doi">10.1080/13607863.2013.875124</ArticleId>
+            <ArticleId IdType="pmc">PMC4066923</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 1999 Sep;14(9):776-83</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10479750</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Altern Ther Health Med. 1999 Nov;5(6):49-57</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10550905</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gerontologist. 2001 Jun;41(3):374-82</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11405435</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ageing Soc. 1992;12:269-87</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11654434</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2007 May;11(3):330-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17558584</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimer Dis Assoc Disord. 2008 Apr-Jun;22(2):158-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18525288</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2008 Sep;12(5):548-58</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18855170</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Heart J. 2009 Jan;50(1):95-110</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19246850</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2010 Sep;22(6):957-65</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20561384</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2013 Aug;28(8):781-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23080214</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nurs Older People. 2007 Jun 1;19(5):22-23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27726617</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23621805</PMID>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>03</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>11</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1364-6915</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Aging &amp; mental health</Title>
+                <ISOAbbreviation>Aging Ment Health</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Individual music therapy for agitation in dementia: an exploratory randomized controlled trial.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>667-78</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1080/13607863.2013.790926</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">Agitation in nursing home residents with dementia leads to increase in psychotropic medication, decrease in quality of life, and to patient distress and caregiver burden. Music therapy has previously been found effective in treatment of agitation in dementia care but studies have been methodologically insufficient. The aim of this study was to examine the effect of individual music therapy on agitation in persons with moderate/severe dementia living in nursing homes, and to explore its effect on psychotropic medication and quality of life.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">In a crossover trial, 42 participants with dementia were randomized to a sequence of six weeks of individual music therapy and six weeks of standard care. Outcome measures included agitation, quality of life and medication.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Agitation disruptiveness increased during standard care and decreased during music therapy. The difference at -6.77 (95% CI (confidence interval): -12.71, -0.83) was significant (p = 0.027), with a medium effect size (0.50). The prescription of psychotropic medication increased significantly more often during standard care than during music therapy (p = 0.02).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This study shows that six weeks of music therapy reduces agitation disruptiveness and prevents medication increases in people with dementia. The positive trends in relation to agitation frequency and quality of life call for further research with a larger sample.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ridder</LastName>
+                    <ForeName>Hanne Mette O</ForeName>
+                    <Initials>HM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Doctoral Programme in Music Therapy, Department of Communication &amp; Psychology, Aalborg University, Aalborg Øst, Denmark. hanne@hum.aau.dk</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stige</LastName>
+                    <ForeName>Brynjulf</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qvale</LastName>
+                    <ForeName>Liv Gunnhild</ForeName>
+                    <Initials>LG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gold</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>04</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Aging Ment Health</MedlineTA>
+            <NlmUniqueID>9705773</NlmUniqueID>
+            <ISSNLinking>1360-7863</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D011619">Psychotropic Drugs</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018592" MajorTopicYN="N">Cross-Over Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="N">drug therapy</QualifierName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009147" MajorTopicYN="N">Music Therapy</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009735" MajorTopicYN="N">Nursing Homes</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011569" MajorTopicYN="N">Psychiatric Status Rating Scales</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011595" MajorTopicYN="N">Psychomotor Agitation</DescriptorName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011619" MajorTopicYN="N">Psychotropic Drugs</DescriptorName>
+                <QualifierName UI="Q000008" MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011788" MajorTopicYN="N">Quality of Life</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016896" MajorTopicYN="N">Treatment Outcome</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>3</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23621805</ArticleId>
+            <ArticleId IdType="doi">10.1080/13607863.2013.790926</ArticleId>
+            <ArticleId IdType="pmc">PMC4685573</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2001 Mar;13(1):93-106</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11352339</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2001 May;5 Suppl 1:S7-16</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11513501</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nurs Res. 2002 Sep-Oct;51(5):317-23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12352780</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Music Ther. 2003 Summer;40(2):138-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">14505442</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2004 Sep;19(9):881-91</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15352147</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Psychiatr Res. 1975 Nov;12(3):189-98</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">1202204</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Psychiatry. 1982 Sep;139(9):1136-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7114305</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol. 1989 May;44(3):M77-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">2715584</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Arch Psychiatr Nurs. 1993 Oct;7(5):284-91</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">8257197</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Occup Ther. 1994 Oct;48(10):883-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7825703</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol Nurs. 1998 Jul;24(7):10-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9801526</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Nurs. 2005 Oct;14(9):1133-40</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16164531</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gerontologist. 2005 Oct;45 Spec No 1(1):19-26</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16230746</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2006;(1):CD003476</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16437455</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2006 Dec;18(4):613-21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16618375</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Geriatr Psychiatry Neurol. 2007 Mar;20(1):41-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17341770</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2007 May;11(3):330-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17558584</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Epidemiol. 2009 May;62(5):464-75</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19348971</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2009 Oct;21(5):825-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19586562</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Curr Opin Psychiatry. 2009 Nov;22(6):532-40</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19696673</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Br J Nurs. 2010 Jan 28-Feb 10;19(2):108-13</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20220649</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2010;340:c869</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20332511</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2010 Jul;25(7):756-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19946870</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Age Ageing. 2010 Sep;39(5):637-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20625185</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2010 Nov;14(8):891-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21069595</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2010 Dec;25(12):1309-10</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21086543</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Nurs. 2011 Apr;20(7-8):969-78</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21309873</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Geriatr Psychiatry. 2011 Oct;19(10):859-70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21946802</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Med Dir Assoc. 2012 May;13(4):407.e7-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22264687</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Med Dir Assoc. 2012 Jul;13(6):503-506.e2</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22342481</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Alzheimers Dis Other Demen. 2012 Aug;27(5):301-10</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22815078</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Pharmacopsychiatry. 2012 Jul;45(5):182-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22430201</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Acta Psychiatr Scand. 2012 Nov;126(5):307-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22943677</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Scand J Psychol. 2013 Apr;54(2):118-26</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23278257</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2013 Aug;28(8):781-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23080214</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2015;5:CD009705</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25972091</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dement Geriatr Cogn Disord. 2010;29(3):189-97</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20215750</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">23080214</PMID>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>01</Month>
+            <Day>31</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>12</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1099-1166</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>28</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of geriatric psychiatry</Title>
+                <ISOAbbreviation>Int J Geriatr Psychiatry</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Music therapy in dementia: a narrative synthesis systematic review.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>781-94</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/gps.3895</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Recent reviews on music therapy for people with dementia have been limited to attempting to evaluate whether it is effective, but there is a need for a critical assessment of the literature to provide insight into the possible mechanisms of actions of music therapy. This systematic review uses a narrative synthesis format to determine evidence for effectiveness and provide insight into a model of action.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">The narrative synthesis framework consists of four elements: (i) theory development; (ii) preliminary synthesis of findings; (iii) exploration of relationships between studies; and (iv) assessment of the robustness of the synthesis.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Electronic and hand searches identified 263 potentially relevant studies. Eighteen studies met the full inclusion criteria. Three distinctive strands of investigations emerged: eight studies explored behavioural and psychological aspects, five studies investigated hormonal and physiological changes, and five studies focused on social and relational aspects of music therapy. The musical interventions in the studies were diverse, but singing featured as an important medium for change.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Evidence for short-term improvement in mood and reduction in behavioural disturbance was consistent, but there were no high-quality longitudinal studies that demonstrated long-term benefits of music therapy. Future music therapy studies need to define a theoretical model, include better-focused outcome measures, and discuss how the findings may improve the well-being of people with dementia.</AbstractText>
+                <CopyrightInformation>Copyright © 2012 John Wiley &amp; Sons, Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>McDermott</LastName>
+                    <ForeName>Orii</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Mental Health Sciences Unit, Faculty of Brain Sciences, University College London, London, UK. o.mcdermott@ucl.ac.uk</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Crellin</LastName>
+                    <ForeName>Nadia</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ridder</LastName>
+                    <ForeName>Hanne Mette</ForeName>
+                    <Initials>HM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Orrell</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+                <PublicationType UI="D000078182">Systematic Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Int J Geriatr Psychiatry</MedlineTA>
+            <NlmUniqueID>8710629</NlmUniqueID>
+            <ISSNLinking>0885-6230</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D018849" MajorTopicYN="N">Controlled Clinical Trials as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009147" MajorTopicYN="N">Music Therapy</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D033262" MajorTopicYN="N">Narration</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011615" MajorTopicYN="N">Psychotherapy, Group</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012919" MajorTopicYN="N">Social Behavior</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">music therapy</Keyword>
+            <Keyword MajorTopicYN="N">narrative synthesis</Keyword>
+            <Keyword MajorTopicYN="N">systematic review</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2012</Year>
+                <Month>05</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>09</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>2</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">23080214</ArticleId>
+            <ArticleId IdType="doi">10.1002/gps.3895</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

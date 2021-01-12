@@ -1,0 +1,1875 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Curated" Owner="NLM">
+        <PMID Version="1">32709238</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>11</Month>
+            <Day>04</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>11</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1477-7525</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>18</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>Jul</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Health and quality of life outcomes</Title>
+                <ISOAbbreviation>Health Qual Life Outcomes</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Measuring the well-being of people with dementia: a conceptual scoping review.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>249</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12955-020-01440-x</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Enabling people with dementia to 'live well' is a policy and research priority in many countries. However, instruments for measuring outcomes of psychosocial interventions designed to promote well-being in dementia are often derived from a symptom-focused, loss/deficit approach, or from broad quality of life concepts. A pan-European dementia working group called for research on the development of an alternative asset/strengths-based conceptual framework of well-being in dementia. This paper takes forward this recommendation by developing such a framework and using this to map relevant self-report outcome measures.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Three scoping reviews of published studies were conducted iteratively. First, we examined the literature on lived experiences of well-being and quality of life in people with dementia and then the wider dementia literature for application of well-being constructs. The synthesised findings generated conceptual domains of well-being in people with dementia. Corresponding self-report instruments used in dementia research were scoped, categorised within the conceptual framework and their potential value in measuring outcomes for people with dementia was examined.</AbstractText>
+                <AbstractText Label="FINDINGS" NlmCategory="RESULTS">Six conceptual domains for the measurement of well-being and 35 self-report instruments that have been used with people with dementia were identified. Six instruments were developed specifically for people with dementia, five were derived from the gerontological literature and 24 from the well-being literature. Fifteen instruments and one sub-scale have been examined for psychometric properties amongst people with dementia. To date, 20 have been used as outcome measures, with seven measuring change over time. A number of identified instruments utilise traditional retrospective Likert-scaling response formats, limiting their potential for use with some groups of people with dementia.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">An assets/strengths-based framework is presented, outlining structural domains for selecting self-report measures of well-being in people with dementia. It provides a foundation for enhancing research into processes and outcomes of psychosocial interventions, including instrument development, more precise matching of intervention aims with outcome measurement, and newer technology-based 'in-the-moment' measurement.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Clarke</LastName>
+                    <ForeName>Chris</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0001-8957-0795</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Health Sciences, University of Hull, Hull, HU6 7RX, UK. c.clarke@hull.ac.uk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Woods</LastName>
+                    <ForeName>Bob</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>DSDC Wales, Bangor University, Ardudwy, Holyhead Road, Bangor, Gwynedd, LL57 2PZ, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moniz-Cook</LastName>
+                    <ForeName>Esme</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Health Sciences, University of Hull, Hull, HU6 7RX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mountain</LastName>
+                    <ForeName>Gail</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Dementia Studies, University of Bradford, Richmond Rd, Bradford, BD7 1DP, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Øksnebjerg</LastName>
+                    <ForeName>Laila</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Danish Dementia Research Centre, Rigshospitalet, University of Copenhagen, Section 6922, Blegdamsvej 9, DK-2100, Copenhagen, Denmark.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chattat</LastName>
+                    <ForeName>Rabih</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychology Università di Bologna - Via Zamboni, 33 - 40126, Bologna, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Diaz</LastName>
+                    <ForeName>Ana</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, L-1417, 14, rue Dicks, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gove</LastName>
+                    <ForeName>Dianne</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, L-1417, 14, rue Dicks, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vernooij-Dassen</LastName>
+                    <ForeName>Myrra</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Radboud University Medical Centre, Scientific Center for Quality of Healthcare, IQ Healthcare 114, PO Box 9101, 6500HB, Nijmegen, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wolverson</LastName>
+                    <ForeName>Emma</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Faculty of Health Sciences, University of Hull, Hull, HU6 7RX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2020</Year>
+                <Month>07</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Health Qual Life Outcomes</MedlineTA>
+            <NlmUniqueID>101153626</NlmUniqueID>
+            <ISSNLinking>1477-7525</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D003625" MajorTopicYN="N">Data Collection</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000071066" MajorTopicYN="Y">Patient Reported Outcome Measures</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011594" MajorTopicYN="N">Psychometrics</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011788" MajorTopicYN="Y">Quality of Life</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057566" MajorTopicYN="N">Self Report</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Dementia</Keyword>
+            <Keyword MajorTopicYN="N">Lived experience</Keyword>
+            <Keyword MajorTopicYN="N">Outcome measurement</Keyword>
+            <Keyword MajorTopicYN="N">Positive psychology</Keyword>
+            <Keyword MajorTopicYN="N">Quality of life</Keyword>
+            <Keyword MajorTopicYN="N">Successful aging</Keyword>
+            <Keyword MajorTopicYN="N">Well-being</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>05</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2020</Year>
+                <Month>06</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>7</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>7</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>11</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32709238</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12955-020-01440-x</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12955-020-01440-x</ArticleId>
+            <ArticleId IdType="pmc">PMC7382062</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Int J Older People Nurs. 2016 Jun;11(2):107-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26710890</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS Med. 2017 Mar 28;14(3):e1002269</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28350796</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2019 May;23(5):643-649</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29356567</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol B Psychol Sci Soc Sci. 2011 Mar;66(2):177-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21187337</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2020 Feb;19(2):496-504</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28747066</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Qual Life Outcomes. 2014 Jun 11;12:94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24919416</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2016 May;28(5):701-3</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26955802</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2009 Sep;13(5):744-52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19882413</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Pers Soc Psychol. 2002 Jan;82(1):112-27</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11811629</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2018 Aug;17(6):702-727</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28914090</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2019 May;34(5):709-721</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30724405</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Alzheimers Dis Other Demen. 2014 Aug;29(5):457-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24408751</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2016 May;15(3):434-52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27170591</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Pers Soc Psychol. 1994 Dec;67(6):1063-78</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7815302</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Holist Nurs. 2014 Dec;32(4):347-55</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24771666</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Parkinsons Dis. 2016;2016:8285041</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27446628</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Med Dir Assoc. 2009 Feb;10(2):87-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19187875</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Geriatr Psychiatry. 1996 Autumn;4(4):298-310</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28530967</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Adv Nurs. 1992 Oct;17(10):1251-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">1430629</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dement Geriatr Cogn Disord. 2018;46(3-4):119-127</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30179862</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2013 Jun;28(6):589-96</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22847712</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Nutr Health Aging. 2015 Feb;19(2):178-82</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25651443</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Acta Psychiatr Scand. 1999 Mar;99(3):171-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10100911</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Pers Soc Psychol. 1988 Jun;54(6):1063-70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">3397865</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2007 Nov;11(6):734-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18074261</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am Psychol. 2007 Feb-Mar;62(2):95-108</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17324035</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Pers Soc Psychol. 1995 Oct;69(4):719-27</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7473027</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2018 Jun;30(6):775-778</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29970212</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2001 May;5(2):191-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11511067</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2019 May;31(5):627-642</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30520403</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Alzheimers Dis Other Demen. 2008 Aug-Sep;23(4):382-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18453642</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2015 Jan;19(1):13-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24881888</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Psychol Psychother. 2002 Sep;75(Pt 3):295-311</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12396755</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol. 1961 Apr;16:134-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">13728508</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Qual Life Outcomes. 2018 Jun 28;16(1):131</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29954384</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Psychooncology. 1998 Nov-Dec;7(6):460-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9885087</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2016 Apr 19;11(4):e0152843</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27093052</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Pers Assess. 1985 Feb;49(1):71-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16367493</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nord J Music Ther. 2015 Jul 3;24(3):232-251</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26246670</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2016 Oct;20(10):1055-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26207801</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gerontologist. 2018 May 8;58(3):e180-e196</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28069886</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2020 Jun;24(6):956-964</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30836765</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Neuropsychol Dev Cogn B Aging Neuropsychol Cogn. 2013;20(1):1-21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22348244</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol B Psychol Sci Soc Sci. 2007 Jan;62(1):P20-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17284553</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2016 May;28(5):787-800</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26674087</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Health Serv Res. 2015 Sep 14;15:379</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26369554</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Qual Life Outcomes. 2009 Feb 19;7:15</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19228398</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement (Amst). 2019 Mar 07;11:231-247</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30906845</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Age Ageing. 2008 Nov;37(6):685-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18852289</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol Nurs. 1995 Mar;21(3):44-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7706649</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Alzheimers Dis Other Demen. 2008 Feb-Mar;23(1):23-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18276955</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2020 Feb;19(2):221-236</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29665723</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med Res Methodol. 2008 Jul 10;8:45</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18616818</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2016 Jul;20(7):676-99</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26078084</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Res Nurs Health. 1990 Dec;13(6):375-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">2270302</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Trials. 2019 Jan 6;20(1):12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30612587</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Gerontol. 2017 Jul-Sep;40(4):307-319</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28459303</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2018 Feb;17(2):214-224</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29164906</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cochrane Database Syst Rev. 2012 Feb 15;(2):CD005562</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22336813</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Am Geriatr Soc. 2011 Jun;59(6):1032-41</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21649633</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Geriatr Psychiatry Neurol. 2010 Jun;23(2):109-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20233854</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Health Expect. 2018 Dec;21(6):1056-1065</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29920881</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ann Intern Med. 2018 Oct 2;169(7):467-473</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30178033</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Med. 2011 Apr 14;9:39</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21492447</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Adv Nurs. 2014 Jul;70(7):1672-81</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24313557</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2013 Jun 20;3(6):</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23794575</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2005 Sep;20(9):889-95</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16116582</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Implement Sci. 2010 Sep 20;5:69</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20854677</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Epidemiol. 2007 Jan;60(1):34-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17161752</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Arch Gerontol Geriatr. 2018 May - Jun;76:182-187</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29529559</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Soc Sci Med. 2000 Aug;51(3):381-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10855925</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Front Neurosci. 2017 Aug 29;11:467</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28912672</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Aging Hum Dev. 2008;67(1):43-61</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18630190</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Geriatr Psychiatry. 2018 Dec;26(12):1231-1243</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30126766</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2003 May;7(3):186-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12775399</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2011 Nov;15(8):961-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21722021</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimer Dis Assoc Disord. 2019 Jan-Mar;33(1):36-41</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30802227</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2016 Feb;31(2):120-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25965388</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am Sociol Rev. 2008;73(2):185-203</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19018292</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Fam Pract. 2002 Nov;51(11):952</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12485549</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Psychol Med. 2018 Oct;48(13):2130-2139</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29734962</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int Psychogeriatr. 2015 Oct;27(10):1731-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25765779</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aging Ment Health. 2013;17(3):319-27</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23171274</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dementia (London). 2019 Aug;18(6):2085-2106</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29145739</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2013 May;28(5):494-503</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22767455</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Pain Symptom Manage. 2008 Dec;36(6):559-71</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18579340</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimer Dis Assoc Disord. 2012 Apr-Jun;26(2):148-58</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21685780</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Holist Nurs. 2014 Mar;32(1):25-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23926217</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Appl Gerontol. 2019 Jan;38(1):137-152</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28380722</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Intern Med. 2014 Nov;29(11):1451-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24893584</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Curated" Owner="NLM">
+        <PMID Version="1">30246266</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>04</Month>
+            <Day>16</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1099-1166</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>34</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>01</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of geriatric psychiatry</Title>
+                <ISOAbbreviation>Int J Geriatr Psychiatry</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Timely diagnosis of dementia? Family carers' experiences in 5 European countries.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>114-121</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/gps.4997</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES">Timely diagnosis of dementia is recommended in national strategies. To what extent is it occurring across Europe, what factors are associated with it, and what is the impact on carers emotions of quality of diagnostic disclosure?</AbstractText>
+                <AbstractText Label="METHODS/DESIGN">Survey of family carers recruited through 5 Alzheimer's associations (Czech Republic, Finland, Italy, the Netherlands, and Scotland). One thousand four hundred and nine carers participated, 84% completing online. Fifty-two percent were adult children, and 37% were spouses, with median age 57. Most (83%) were female.</AbstractText>
+                <AbstractText Label="RESULTS">Nearly half (47%) of carers reported that an earlier diagnosis would have been preferable. Delaying factors included reluctance of the person with dementia, lack of awareness of dementia, the response of professionals, and delays within health systems. Recent diagnoses were no more likely to be considered timely, although professional responses appeared to be improving. Delayed diagnoses were more often reported by adult child carers and where the diagnosis was made in the later stages of dementia, or another condition had been previously diagnosed. In all countries except Italy, the diagnosis was shared with the person with dementia in the majority of cases. Timely diagnoses and higher quality diagnostic disclosure are associated with better adjustment and less negative emotional impact on carers in the short and medium term.</AbstractText>
+                <AbstractText Label="CONCLUSIONS">Although the study sample were well educated and likely to be in touch with an Alzheimer organisation, many continued to experience the diagnosis of dementia as coming too late, and further work on public awareness, as well as on professional responses, is needed.</AbstractText>
+                <CopyrightInformation>© 2018 The Authors. International Journal of Geriatric Psychiatry Published by John Wiley &amp; Sons Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Woods</LastName>
+                    <ForeName>Bob</ForeName>
+                    <Initials>B</Initials>
+                    <Identifier Source="ORCID">0000-0002-6781-651X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Dementia Services Development Centre Wales, Bangor University, Bangor, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arosio</LastName>
+                    <ForeName>Francesca</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Federazione Alzheimer Italia, Milan, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Diaz</LastName>
+                    <ForeName>Ana</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, Luxembourg, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gove</LastName>
+                    <ForeName>Dianne</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, Luxembourg, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Holmerová</LastName>
+                    <ForeName>Iva</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Czech Alzheimer Society, Prague, Czech Republic.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kinnaird</LastName>
+                    <ForeName>Lindsay</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Scotland, Edinburgh, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mátlová</LastName>
+                    <ForeName>Martina</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Czech Alzheimer Society, Prague, Czech Republic.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Okkonen</LastName>
+                    <ForeName>Eila</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Muistiliitto-Alzheimer Society of Finland, Helsinki, Finland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Possenti</LastName>
+                    <ForeName>Mario</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Federazione Alzheimer Italia, Milan, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Roberts</LastName>
+                    <ForeName>Jennifer</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Dementia Services Development Centre Wales, Bangor University, Bangor, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Salmi</LastName>
+                    <ForeName>Anna</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Muistiliitto-Alzheimer Society of Finland, Helsinki, Finland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van den Buuse</LastName>
+                    <ForeName>Susanne</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Nederland, Amersfoort, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Werkman</LastName>
+                    <ForeName>Wendy</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Nederland, Amersfoort, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Georges</LastName>
+                    <ForeName>Jean</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, Luxembourg, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>10</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Int J Geriatr Psychiatry</MedlineTA>
+            <NlmUniqueID>8710629</NlmUniqueID>
+            <ISSNLinking>0885-6230</ISSNLinking>
+        </MedlineJournalInfo>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001364" MajorTopicYN="N">Awareness</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003695" MajorTopicYN="N">Delivery of Health Care</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="Y">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003704" MajorTopicYN="N">Dementia</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D042241" MajorTopicYN="N">Early Diagnosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005060" MajorTopicYN="N" Type="Geographic">Europe</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006302" MajorTopicYN="N">Health Services Research</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011361" MajorTopicYN="N">Professional Competence</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018454" MajorTopicYN="N">Spouses</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Alzheimer's</Keyword>
+            <Keyword MajorTopicYN="Y">adjustment</Keyword>
+            <Keyword MajorTopicYN="Y">dementia</Keyword>
+            <Keyword MajorTopicYN="Y">diagnostic disclosure</Keyword>
+            <Keyword MajorTopicYN="Y">family carers</Keyword>
+            <Keyword MajorTopicYN="Y">timely diagnosis</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>04</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30246266</ArticleId>
+            <ArticleId IdType="doi">10.1002/gps.4997</ArticleId>
+            <ArticleId IdType="pmc">PMC6586062</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J R Soc Med. 2003 Jul;96(7):320-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12835442</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2005 Apr;20(4):377-86</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15799080</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2008 May;23(5):546-51</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18232054</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Health Serv Res. 2008 May 01;8:95</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18452594</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2014 Jul;29(7):682-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24458456</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2014 Mar 04;4(3):e004439</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24595135</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2015 Jun 16;350:h3029</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26079686</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ann Ist Super Sanita. 2015;51(4):261-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26783209</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29659032</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>04</Month>
+            <Day>09</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>04</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1467-9566</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>40</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>07</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sociology of health &amp; illness</Title>
+                <ISOAbbreviation>Sociol Health Illn</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>At, with and beyond risk: expectations of living with the possibility of future dementia.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>969-987</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/1467-9566.12731</ELocationID>
+            <Abstract>
+                <AbstractText>Biomedical research aimed at the development of therapies for chronic and late-onset conditions increasingly concentrates on the early treatment of symptom-less disease. This broad trend is evidenced in prominent shifts in contemporary dementia research. Revised diagnostic criteria and new approaches to clinical trials propose a focus on earlier stages of disease and prompt concerns about the implications of communicating test results associated with the risk of developing dementia when no effective treatments are available. This article examines expectations of the implications of learning test results related to dementia risk, based on focus group research conducted in the UK and Spain. It points to the extended social and temporal aspects of the dementia risk experience. Three key dimensions of this risk experience are elaborated: living 'at risk', represented in efforts to reduce risk and plan for the future; 'with risk', through vigilance towards cognitive health and earlier or prolonged contact with healthcare services; and finally, 'beyond risk' through a cessation of the self in its current social, legal and financial form. A virtual abstract of this paper can be viewed at: https://www.youtube.com/channel/UC_979cmCmR9rLrKuD7z0ycA.</AbstractText>
+                <CopyrightInformation>© 2018 Foundation for the Sociology of Health &amp; Illness.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Milne</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Public Health, University of Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Diaz</LastName>
+                    <ForeName>Ana</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Badger</LastName>
+                    <ForeName>Shirlene</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Public Health, University of Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bunnik</LastName>
+                    <ForeName>Eline</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Erasmus MC, Rotterdam, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fauria</LastName>
+                    <ForeName>Karine</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pasqual Maragall Foundation, Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wells</LastName>
+                    <ForeName>Katie</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imperial College, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>04</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Sociol Health Illn</MedlineTA>
+            <NlmUniqueID>8205036</NlmUniqueID>
+            <ISSNLinking>0141-9889</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000544" MajorTopicYN="N">Alzheimer Disease</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D060825" MajorTopicYN="N">Cognitive Dysfunction</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="Y">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D042241" MajorTopicYN="Y">Early Diagnosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017144" MajorTopicYN="N">Focus Groups</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013030" MajorTopicYN="N" Type="Geographic">Spain</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006113" MajorTopicYN="N" Type="Geographic">United Kingdom</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">biomedicine</Keyword>
+            <Keyword MajorTopicYN="Y">dementia / Alzheimer's</Keyword>
+            <Keyword MajorTopicYN="Y">ethics/bioethics</Keyword>
+            <Keyword MajorTopicYN="Y">genetic risk</Keyword>
+            <Keyword MajorTopicYN="Y">prevention</Keyword>
+            <Keyword MajorTopicYN="Y">risk</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>4</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>4</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>4</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29659032</ArticleId>
+            <ArticleId IdType="doi">10.1111/1467-9566.12731</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29480179</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>02</Month>
+            <Day>08</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>02</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1875-8908</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>62</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of Alzheimer's disease : JAD</Title>
+                <ISOAbbreviation>J Alzheimers Dis</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Perspectives on Communicating Biomarker-Based Assessments of Alzheimer's Disease to Cognitively Healthy Individuals.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>487-498</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3233/JAD-170813</ELocationID>
+            <Abstract>
+                <AbstractText>In clinical trials which target pathophysiological mechanisms associated with Alzheimer's disease, research participants who are recruited based on biomarker test results should be informed about their increased risk of developing Alzheimer's dementia. This paper presents the results of a qualitative focus group study of attitudes and concerns toward learning information about biomarker-based risk status among healthy research participants in the United Kingdom and Spain and people with dementia and their supporters/caregivers from countries represented in the European Working Group of People with Dementia of Alzheimer Europe. The study identified expectations related to learning risk status and preferences related to the content, quality, and follow-up of the disclosure process. The latter emphasize distinctions between risk and diagnoses, the importance of clear information about risk, and suggestions for risk reduction, as well as expectations for follow up and support. The implications of these preferences for practice are discussed. Providing details of research participants' experience and views may serve as a guide for the development of processes for the responsible disclosure of Alzheimer's disease biomarkers.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Milne</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Public Health and Primary Care, Institute of Public Health, University of Cambridge School of Clinical Medicine, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bunnik</LastName>
+                    <ForeName>Eline</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Ethics and Philosophy of Medicine, Erasmus MC, University Medical Center Rotterdam, Rotterdam, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Diaz</LastName>
+                    <ForeName>Ana</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Richard</LastName>
+                    <ForeName>Edo</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Neurology, Radboud University Medical Center, Nijmegen, The Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Badger</LastName>
+                    <ForeName>Shirlene</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Public Health and Primary Care, Institute of Public Health, University of Cambridge School of Clinical Medicine, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gove</LastName>
+                    <ForeName>Dianne</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Georges</LastName>
+                    <ForeName>Jean</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Alzheimer Europe, Luxembourg.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fauria</LastName>
+                    <ForeName>Karine</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BarcelonaBeta Brain Research Centre, Fundació Pasqual Maragall, Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Molinuevo</LastName>
+                    <ForeName>Jose-Luis</ForeName>
+                    <Initials>JL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BarcelonaBeta Brain Research Centre, Fundació Pasqual Maragall, Barcelona, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wells</LastName>
+                    <ForeName>Katie</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre of Mental Health, Imperial College London, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ritchie</LastName>
+                    <ForeName>Craig</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brayne</LastName>
+                    <ForeName>Carol</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Public Health and Primary Care, Institute of Public Health, University of Cambridge School of Clinical Medicine, Cambridge, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>J Alzheimers Dis</MedlineTA>
+            <NlmUniqueID>9814863</NlmUniqueID>
+            <ISSNLinking>1387-2877</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015415">Biomarkers</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="CommentIn">
+                <RefSource>J Alzheimers Dis. 2018;62(2):499-502</RefSource>
+                <PMID Version="1">29480203</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000544" MajorTopicYN="N">Alzheimer Disease</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="Y">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015415" MajorTopicYN="Y">Biomarkers</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017028" MajorTopicYN="N">Caregivers</DescriptorName>
+                <QualifierName UI="Q000523" MajorTopicYN="N">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D030881" MajorTopicYN="N">Disclosure</DescriptorName>
+                <QualifierName UI="Q000941" MajorTopicYN="Y">ethics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017144" MajorTopicYN="N">Focus Groups</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D036301" MajorTopicYN="N">Qualitative Research</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013030" MajorTopicYN="N" Type="Geographic">Spain</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006113" MajorTopicYN="N" Type="Geographic">United Kingdom</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Biomarkers</Keyword>
+            <Keyword MajorTopicYN="Y">disclosure</Keyword>
+            <Keyword MajorTopicYN="Y">ethics</Keyword>
+            <Keyword MajorTopicYN="Y">focus groups</Keyword>
+            <Keyword MajorTopicYN="Y">qualitative research</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>2</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>2</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>2</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29480179</ArticleId>
+            <ArticleId IdType="pii">JAD170813</ArticleId>
+            <ArticleId IdType="doi">10.3233/JAD-170813</ArticleId>
+            <ArticleId IdType="pmc">PMC5836405</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Milbank Q. 2009 Jun;87(2):417-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19523124</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Neurology. 2011 Oct 11;77(15):1487-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21917767</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Genet. 2011 Nov;80(5):407-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21696382</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Eur J Hum Genet. 2006 Nov;14(11):1170-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16868560</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Prev Alzheimers Dis. 2017;4(2):125-131</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29186282</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimer Dis Assoc Disord. 2008 Jan-Mar;22(1):94-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18317253</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Ethics. 2012 Jan;38(1):57-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21873309</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Law Med Ethics. 2011 Winter;39(4):583-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22084844</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2016 Mar 15;352:i1102</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26979548</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Res Ther. 2017 May 4;9(1):35</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28472970</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Eur J Ageing. 2012 Sep 22;9(4):275-284</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28804427</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2016 May;12 (5):614-22</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26988427</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Genet Med. 2011 Jun;13(6):597-605</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21577118</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Neurology. 2015 Apr 7;84(14):1488-94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25762713</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2017 Sep;13(9):1024-1030</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28263740</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2016 Apr;12 (4):510-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27103054</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Biomark Med. 2012 Aug;6(4):365-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22917137</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Neuroimage Clin. 2013 Mar 05;2:356-65</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24179789</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2014 Oct;10(5 Suppl):S381-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24630852</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2008 Feb 2;336(7638):258-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18187696</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet Psychiatry. 2016 Feb;3(2):179-86</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26683239</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Res Ther. 2013 Sep 06;5(5):43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24010759</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JAMA Neurol. 2018 Jan 1;75(1):44-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29059270</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>JAMA Neurol. 2015 Dec;72(12):1484-90</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26501506</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Annu Rev Genomics Hum Genet. 2013;14:491-513</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24003856</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mayo Clin Proc. 2014 Oct;89(10):1389-96</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25171823</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Intern Med. 2014 Mar;275(3):304-16</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24605810</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement (N Y). 2016 Jan 1;2(1):23-29</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27019867</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>N Engl J Med. 2009 Jul 16;361(3):245-54</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19605829</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Patient Educ Couns. 2008 Apr;71(1):4-25</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18207694</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS Med. 2017 Mar 21;14 (3):e1002263</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28323827</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2013 Mar;9(2):123-131.e1</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23411394</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>N Engl J Med. 2009 May 28;360(22):2302-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19474427</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2016 Feb 04;11(2):e0144405</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26845035</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Neurodegener Dis Manag. 2013;3(3):219-229</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26167204</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Res Ther. 2015 May 12;7(1):26</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25969699</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ Open. 2012 Nov 19;2(6):null</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23166135</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Prog Neurobiol. 2013 Nov;110:89-101</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23583530</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Future Neurol. 2010 Jul 1;5(4):501-517</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20856693</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2016 Apr;12 (4):454-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26750717</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2013 Jan;9(1):e-1-16</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23360977</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Soc Sci Med. 2011 Jun;72(11):1768-75</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20570031</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMJ. 2000 Jan 1;320(7226):50-2</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10617534</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Sci Transl Med. 2014 Mar 19;6(228):228fs13</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24648338</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Clin Pract. 2013 Nov;67(11):1076-80</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23952529</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Med Decis Making. 2011 Nov-Dec;31(6):828-38</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22067431</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Geriatr Psychiatry. 2015 Mar;30(3):234-46</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25504093</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Genet. 2011 Sep;80(3):281-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20880124</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement (N Y). 2016 Mar 03;2(2):82-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29067295</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Res Ther. 2016 Nov 10;8(1):46</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27832826</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement. 2011 May;7(3):280-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21514248</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Rev Neurol. 2010 Jun;6(6):318-26</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20498679</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gerontol B Psychol Sci Soc Sci. 2017 Oct 1;72 (6):974-985</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28958089</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet Neurol. 2016 Apr;15(5):455-532</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26987701</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Alzheimers Dement (Amst). 2015 Jul 26;1(3):358-67</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27239516</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2015 Sep 03;10(9):e0136181</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26334524</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Alzheimers Dis. 2016 Mar 8;52(1):17-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27060950</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

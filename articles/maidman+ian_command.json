@@ -1,0 +1,1 @@
+["https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=dementia[mesh]+AND+maidman+ian[AU]&usehistory=y", "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&query_key=1&WebEnv=MCID_5ffda06d4ee9ac38924ee441&rettype=abstract&retmode=xml"]
