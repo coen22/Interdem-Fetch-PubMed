@@ -28,7 +28,8 @@ $xmlCacheUrl = $_SERVER['DOCUMENT_ROOT']."/data/articles/$author.xml";
 $commandUrl = $_SERVER['DOCUMENT_ROOT']."/data/articles/$author" . "_command.json";
 
 # check if cache available
-if (file_exists($cacheUrl)) {
+if (file_exists($cacheUrl) &&
+  time() - filemtime($cacheUrl) < 24 * 3600) { # if less then 24 hours old
     # retrieve from cache
     $jsonText = file_get_contents($cacheUrl);
 } else {
