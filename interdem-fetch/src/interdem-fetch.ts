@@ -1,14 +1,70 @@
-import {LitElement, html, css, property, customElement} from 'lit-element';
+import {LitElement, html, css, property, customElement, TemplateResult} from 'lit-element';
 import {repeat} from "lit-html/directives/repeat";
 
 import '@vaadin/vaadin-details';
+
+import '@vaadin/vaadin-tabs';
+import { TabsElement } from '@vaadin/vaadin-tabs';
+
+import '@vaadin/vaadin-text-field';
+import { TextFieldElement } from '@vaadin/vaadin-text-field';
+
+import Fuse from 'fuse.js';
+import {ifDefined} from "lit-html/directives/if-defined";
+
+export interface Article {
+  year: string;
+  title: string;
+  abstractText: string;
+  journal: string;
+  authorsString: string,
+  authors: {LastName: string, Initials: string}[];
+  PMID: string;
+}
 
 @customElement('interdem-fetch')
 export class InterdemFetch extends LitElement {
 
   @property({type: Array}) authors?: any[];
 
-  @property({type: Array}) papers?: any[] = [
+  get flatPapers() : any[] {
+    const papers: any = [];
+
+    this.authors?.forEach((author: any) => {
+      if (this.isArray(author.data?.PubmedArticle)) {
+        author.data?.PubmedArticle?.forEach((article: any) => {
+          if (article) {
+            let year: string | undefined = article?.MedlineCitation?.Article?.Journal?.JournalIssue?.PubDate?.Year;
+            let title: string | undefined = article?.MedlineCitation?.Article?.ArticleTitle;
+            let abstractText = this.getAbstractText(article?.MedlineCitation?.Article?.Abstract?.AbstractText);
+            let journal: string | undefined = article?.MedlineCitation?.Article?.Journal?.Title;
+            let authors: {LastName: string, Initials: string}[] | undefined = article?.MedlineCitation?.Article?.AuthorList?.Author;
+            let PMID: string | undefined = article?.MedlineCitation?.PMID;
+
+            let authorsString = this.asArray(article.MedlineCitation.Article.AuthorList.Author).map((author: any) => `
+              ${author?.LastName} ${author?.Initials}
+            `).join(',');
+
+            if (year && title && abstractText && journal && authors) {
+              papers.push({
+                year: year,
+                title: title,
+                abstractText: abstractText,
+                journal: journal,
+                authors: authors,
+                authorsString: authorsString,
+                PMID: PMID
+              });
+            }
+          }
+        });
+      }
+    });
+
+    return papers;
+  }
+
+  @property({type: Array}) papers: any[] = [
     {
       id: 0,
       show: true,
@@ -99,6 +155,10 @@ export class InterdemFetch extends LitElement {
     }
   ];
 
+  private view: number | null | undefined = 0;
+
+  private searchOutput?: any[];
+
   // language=CSS
   static styles = css`
     * {
@@ -122,11 +182,36 @@ export class InterdemFetch extends LitElement {
     }
   `;
 
-  render() {
+  render() : TemplateResult {
     return html`
       <div class="page-width">
         <h1>Articles</h1>
-        ${this.papers ? repeat(this.papers, category => category.show ? html`
+
+        <div style="display: flex; justify-content:space-between ">
+          <vaadin-tabs theme="minimal" @selected-changed=${(e: CustomEvent) => {
+            const tabs = e.target as TabsElement;
+            this.view = tabs.selected;
+            this.requestUpdate();
+          }}>
+            <vaadin-tab>By Topic</vaadin-tab>
+            <vaadin-tab>By Author</vaadin-tab>
+          </vaadin-tabs>
+          <vaadin-text-field clear-button-visible placeholder="Search" @input=${this.searchChanged}></vaadin-text-field>
+        </div>
+
+        ${this.searchOutput ? this.searchOutput.map((article: { item: Article}) => html`
+          <p>
+            <b>${article.item.year}</b>
+            ${article.item.authorsString},
+            <a href="https://pubmed.ncbi.nlm.nih.gov/${article.item.PMID}/">
+              ${article.item.title}
+            </a>
+            ${article.item.journal}
+          </p>
+        `) : ''}
+        ${this.searchOutput && this.searchOutput.length == 0 ? html`No Results` : ''}
+
+        ${this.view == 0 && !this.searchOutput ? this.papers?.map(category => category.show ? html`
           <h2>${category.name}</h2>
           ${category?.years ? repeat(category.years, (yearGroup: any) => html`
             <vaadin-details>
@@ -159,22 +244,26 @@ export class InterdemFetch extends LitElement {
 
       list.forEach(async (author: { name: string, data?: any }) => {
         const url = '/backend/fetch.php?author=' + encodeURIComponent(author.name);
-
-        // slow down requests at a maximum of 3 per second to avoid PubMed blocking
-        // await new Promise(r => setTimeout(r, Math.random() * list.length * 1000 / 3));
-
-        await fetch(url).then(res => res.json()).then((data: any) => {
-          author.data = data;
-          this.addAuthorData(author);
-          this.requestUpdate();
-        }).catch(() => {
-          console.log(author.name + ' is not available (' + url + ')');
-        });
+        await this.fetchAuthorData(author, url);
       })
     });
   }
 
-  addAuthorData(author: any) {
+  async fetchAuthorData(author: any, url: string, retry = true) {
+    return await fetch(url).then(res => {
+      if (!res.ok)
+        throw new Error("Could not fetch author");
+
+      return res.json();
+    }).then((data: any) => {
+      author.data = data;
+      this.addAuthorData(author, url);
+    }).catch(() => {
+      console.log(author.name + ' is not available (' + url + ')');
+    });
+  }
+
+  addAuthorData(author: any, url: string, retry = true) {
     if (author.data && author.data['PubmedArticle'] && Array.isArray(author.data['PubmedArticle'])) {
       author.data['PubmedArticle'].forEach(paper => {
         if (paper['MedlineCitation'] && paper['MedlineCitation']['Article']) {
@@ -184,7 +273,7 @@ export class InterdemFetch extends LitElement {
           if (year == null || year == '')
             return; // the year is not known, don't view this one
 
-          let title = paper['MedlineCitation']['Article']['ArticleTitle'];
+          const title = paper['MedlineCitation']['Article']['ArticleTitle'];
           let paperAbstract = '';
 
           if (paper['MedlineCitation']['Article']['Abstract'] &&
@@ -192,20 +281,23 @@ export class InterdemFetch extends LitElement {
             paperAbstract = this.getAbstractText(paper['MedlineCitation']['Article']['Abstract']['AbstractText']);
           }
 
-          let text = (title + ' ' + paperAbstract).toLowerCase();
-          let category = this.papers?.sort((a, b) => {
-            let aMatches = this.countKeywords(text, a['keywords']);
-            let bMatches = this.countKeywords(text, b['keywords']);
+          // calculate best category
+          const text = (title + ' ' + paperAbstract).toLowerCase();
+          const category = this.papers?.sort((a, b) => {
+            const aMatches = this.countKeywords(text, a['keywords']);
+            const bMatches = this.countKeywords(text, b['keywords']);
 
             return bMatches - aMatches;
           })[0];
-          let categoryIdx = this.papers?.indexOf(category);
+
+          // get category id
+          const categoryIdx = this.papers?.indexOf(category);
 
           if (!category['years'])
             category['years'] = [];
 
           if (category['years'].filter((x: { [x: string]: any; }) => x['year'] == year).length == 0) {
-            let yearTmp: any = {};
+            const yearTmp: any = {};
 
             yearTmp['year'] = year;
             yearTmp['titles'] = [];
@@ -213,17 +305,17 @@ export class InterdemFetch extends LitElement {
 
             category['years'].push(yearTmp);
 
-            category['years'].sort((a: { [x: string]: number; }, b: { [x: string]: number; }) => a['year'] < b['year']);
+            category['years'] = category['years'].sort((a: any, b: any) => parseInt(b.year) - parseInt(a.year));
           }
 
+          // select the correct year
           let categoryYear: any = null;
           category['years'].forEach((x: { [x: string]: any; }) => {
             if (x['year'] === year)
               categoryYear = x;
           });
 
-          let categoryYearIdx = category['years'].indexOf(category);
-
+          // add title, if it doesn't exist
           if (categoryYear && !categoryYear['titles']?.includes(title)) {
             categoryYear['titles'].push(title);
 
@@ -232,16 +324,20 @@ export class InterdemFetch extends LitElement {
           }
         }
       });
+
+      this.papers = this.papers?.sort((a: any, b: any) => {
+        return a.id - b.id;
+      });
+
+      this.requestUpdate();
     } else {
+      // if (retry)
+      //   this.fetchAuthorData(author, url,false);
       console.warn('warning no data');
     }
-
-    this.papers?.sort((a: any, b: any) => {
-      return a.id - b.id;
-    });
   }
 
-  getAbstractText(obj: any | any[]) {
+  getAbstractText(obj: any | any[]) : string {
     if (this.isObject(obj)) {
       if (this.isArray(obj)) {
         let res = '';
@@ -252,25 +348,26 @@ export class InterdemFetch extends LitElement {
       } else {
         let res = '';
 
-        let tmp = Object.entries(obj);
+        const tmp = Object.entries(obj);
         tmp.forEach((item: any) => res += item.value);
 
         return res;
       }
     } else {
-      if (typeof  obj !== 'string')
-        console.warn('The data type didn\'t match');
+      if (typeof  obj !== 'string') {
+        return '';
+      }
 
       return obj;
     }
   }
 
-  countKeywords(text: string, keywords: any[]) {
+  countKeywords(text: string, keywords: any[]) : number {
     let numMatches = 0;
 
     keywords.forEach((x: { name: string, weight: number}) => {
-      let regex = new RegExp(x.name.toLowerCase(), 'g');
-      let matches = text.match(regex);
+      const regex = new RegExp(x.name.toLowerCase(), 'g');
+      const matches = text.match(regex);
       if (matches)
         numMatches += matches.length * x.weight;
     });
@@ -278,18 +375,45 @@ export class InterdemFetch extends LitElement {
     return numMatches;
   }
 
-  isObject(obj: any | any[]) {
+  isObject(obj: any | any[]) : boolean {
     return typeof obj === 'object' && obj !== null;
   }
 
-  isArray(obj: any | any[]) {
+  isArray(obj: any | any[]) : boolean {
     return Array.isArray(obj);
   }
 
-  asArray(obj: any | any[]) {
+  asArray(obj: any | any[]) : any[] {
     if (Array.isArray(obj))
       return obj;
     else
       return [ obj ];
+  }
+
+  searchChanged(e: CustomEvent) : void {
+    const search = e.target as TextFieldElement;
+
+    if (this.authors && search.value.length > 0) {
+      const options = {
+        includeScore: true,
+        threshold: 0.35,
+        keys: [
+          'year',
+          'title',
+          'abstractText',
+          "authorsString",
+          "journal"
+        ]
+      }
+
+      const papers = this.flatPapers;
+
+      const fuse = new Fuse(papers, options);
+      this.searchOutput = fuse.search(search.value)
+    } else {
+      this.searchOutput = undefined;
+    }
+
+    this.requestUpdate();
   }
 }
