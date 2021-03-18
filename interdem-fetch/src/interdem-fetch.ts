@@ -10,7 +10,8 @@ import '@vaadin/vaadin-text-field';
 import { TextFieldElement } from '@vaadin/vaadin-text-field';
 
 import Fuse from 'fuse.js';
-import {ifDefined} from "lit-html/directives/if-defined";
+import * as JsSearch from 'js-search';
+import {Author, AuthorData, PubmedArticle} from "./types";
 
 export interface Article {
   year: string;
@@ -25,43 +26,54 @@ export interface Article {
 @customElement('interdem-fetch')
 export class InterdemFetch extends LitElement {
 
-  @property({type: Array}) authors?: any[];
+  @property({type: Array}) authors?: AuthorData[];
 
+  private _flatPapers?: any[];
   get flatPapers() : any[] {
-    const papers: any = [];
+    if (this._flatPapers)
+      return this._flatPapers;
+
+    this._flatPapers = [];
 
     this.authors?.forEach((author: any) => {
       if (this.isArray(author.data?.PubmedArticle)) {
         author.data?.PubmedArticle?.forEach((article: any) => {
           if (article) {
             let year: string | undefined = article?.MedlineCitation?.Article?.Journal?.JournalIssue?.PubDate?.Year;
-            let title: string | undefined = article?.MedlineCitation?.Article?.ArticleTitle;
+            let title: string = article?.MedlineCitation?.Article?.ArticleTitle;
             let abstractText = this.getAbstractText(article?.MedlineCitation?.Article?.Abstract?.AbstractText);
             let journal: string | undefined = article?.MedlineCitation?.Article?.Journal?.Title;
-            let authors: {LastName: string, Initials: string}[] | undefined = article?.MedlineCitation?.Article?.AuthorList?.Author;
+            let authors: {LastName: string, Initials: string}[] | undefined = this.asArray(article?.MedlineCitation?.Article?.AuthorList?.Author);
             let PMID: string | undefined = article?.MedlineCitation?.PMID;
 
-            let authorsString = this.asArray(article.MedlineCitation.Article.AuthorList.Author).map((author: any) => `
-              ${author?.LastName} ${author?.Initials}
+            let authorsString = authors.map((author: any) => `
+              ${author?.FirstName} ${author?.LastName} ${author?.Initials}
             `).join(',');
 
-            if (year && title && abstractText && journal && authors) {
-              papers.push({
-                year: year,
-                title: title,
-                abstractText: abstractText,
-                journal: journal,
-                authors: authors,
-                authorsString: authorsString,
-                PMID: PMID
-              });
+            // filter to find possible duplicates
+            const duplicates = this._flatPapers?.filter(item => item.PMID == PMID);
+
+            if (year && title && abstractText && journal && authors && duplicates?.length == 0) {
+              const category = this.classify(article, title, abstractText);
+
+              if (category.show) {
+                this._flatPapers?.push({
+                  year: year,
+                  title: title,
+                  abstractText: abstractText,
+                  journal: journal,
+                  authors: authors,
+                  authorsString: authorsString,
+                  PMID: PMID
+                });
+              }
             }
           }
         });
       }
     });
 
-    return papers;
+    return this._flatPapers;
   }
 
   @property({type: Array}) papers: any[] = [
@@ -157,7 +169,7 @@ export class InterdemFetch extends LitElement {
 
   private view: number | null | undefined = 0;
 
-  private searchOutput?: any[];
+  private searchOutput?: any[] | null;
 
   // language=CSS
   static styles = css`
@@ -193,43 +205,72 @@ export class InterdemFetch extends LitElement {
             this.view = tabs.selected;
             this.requestUpdate();
           }}>
-            <vaadin-tab>By Topic</vaadin-tab>
-            <vaadin-tab>By Author</vaadin-tab>
+            <vaadin-tab @click=${() => this.searchOutput = null}>By Topic</vaadin-tab>
+            <vaadin-tab @click=${() => this.searchOutput = null}>By Author</vaadin-tab>
           </vaadin-tabs>
           <vaadin-text-field clear-button-visible placeholder="Search" @input=${this.searchChanged}></vaadin-text-field>
         </div>
 
-        ${this.searchOutput ? this.searchOutput.map((article: { item: Article}) => html`
+        ${this.searchOutput ? this.searchOutput?.map((article: Article) => html`
           <p>
-            <b>${article.item.year}</b>
-            ${article.item.authorsString},
-            <a href="https://pubmed.ncbi.nlm.nih.gov/${article.item.PMID}/">
-              ${article.item.title}
+            <b>${article.year}</b>
+            ${article.authors?.map(author => html`
+              ${author?.LastName} ${author?.Initials},
+            `)}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/${article.PMID}/">
+              ${article.title}
             </a>
-            ${article.item.journal}
+            ${article.journal}
           </p>
         `) : ''}
-        ${this.searchOutput && this.searchOutput.length == 0 ? html`No Results` : ''}
+        ${this.searchOutput && this.searchOutput.length == 0 ? html`
+          <p style="text-align: center">
+            No Results
+          </p>
+        ` : ''}
 
-        ${this.view == 0 && !this.searchOutput ? this.papers?.map(category => category.show ? html`
-          <h2>${category.name}</h2>
-          ${category?.years ? repeat(category.years, (yearGroup: any) => html`
-            <vaadin-details>
-              <div slot="summary">${yearGroup.year}</div>
-              ${yearGroup?.articles ? repeat(yearGroup.articles, (article: any) => html`
-              <p>
-                ${article?.MedlineCitation?.Article?.AuthorList?.Author ? repeat(this.asArray(article.MedlineCitation.Article.AuthorList.Author), (author: any) => html`
-                  ${author?.LastName} ${author?.Initials},
+        <div style="display: ${(this.view == 1 && !this.searchOutput) ? 'block' : 'none'}">
+          ${this.authors?.map((mainAuthor: AuthorData) => html`
+            ${mainAuthor?.data?.PubmedArticle && this.isArray(mainAuthor?.data?.PubmedArticle) ? html`
+              <vaadin-details>
+                <div slot="summary">${mainAuthor.name}</div>
+                ${mainAuthor?.data?.PubmedArticle ? mainAuthor?.data?.PubmedArticle?.map(article => html`
+                  <p>
+                    ${article?.MedlineCitation?.Article?.AuthorList?.Author ? repeat(this.asArray(article.MedlineCitation.Article.AuthorList.Author), (author: any) => html`
+                      ${author?.LastName} ${author?.Initials},
+                    `) : ''}
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/${article.MedlineCitation?.PMID}/">
+                      ${article?.MedlineCitation?.Article?.ArticleTitle}
+                    </a>
+                    ${article?.MedlineCitation?.Article?.Journal?.Title}
+                  </p>
                 `) : ''}
-                <a href="https://pubmed.ncbi.nlm.nih.gov/${article.MedlineCitation?.PMID}/">
-                  ${article?.MedlineCitation?.Article?.ArticleTitle}
-                </a>
-                ${article?.MedlineCitation?.Article?.Journal?.Title}
-              </p>
+              </vaadin-details>
+            ` : ''}
+          `)}
+        </div>
+
+        <div style="display: ${(this.view == 0 && !this.searchOutput) ? 'block' : 'none'}">
+          ${this.papers?.map(category => category.show ? html`
+            <h2>${category.name}</h2>
+            ${category?.years ? repeat(category.years, (yearGroup: any) => html`
+              <vaadin-details>
+                <div slot="summary">${yearGroup.year}</div>
+                ${yearGroup?.articles ? repeat(yearGroup.articles, (article: any) => html`
+                <p>
+                  ${article?.MedlineCitation?.Article?.AuthorList?.Author ? repeat(this.asArray(article.MedlineCitation.Article.AuthorList.Author), (author: any) => html`
+                    ${author?.LastName} ${author?.Initials},
+                  `) : ''}
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/${article.MedlineCitation?.PMID}/">
+                    ${article?.MedlineCitation?.Article?.ArticleTitle}
+                  </a>
+                  ${article?.MedlineCitation?.Article?.Journal?.Title}
+                </p>
+              `) : ''}
+              </vaadin-details>
             `) : ''}
-            </vaadin-details>
-          `) : ''}
-        ` : '') : ''}
+          ` : '')}
+        </div>
         <br/>
         <br/>
       </div>
@@ -239,14 +280,24 @@ export class InterdemFetch extends LitElement {
   connectedCallback() {
     super.connectedCallback();
 
-    fetch('/data/names.json').then(res => res.json()).then((list: { name: string }[]) => {
-      this.authors = list;
+    if (this.isLocal()) {
+      fetch('/data/names.json').then(res => res.json()).then((list: AuthorData[]) => {
+        this.authors = list;
+        this.fetchAuthorData(list[0], '/testData/aguirre+elisa.json');
+      });
+    } else {
+      fetch('/data/names.json').then(res => res.json()).then((list: AuthorData[]) => {
+        this.authors = list;
 
-      list.forEach(async (author: { name: string, data?: any }) => {
-        const url = '/backend/fetch.php?author=' + encodeURIComponent(author.name);
-        await this.fetchAuthorData(author, url);
-      })
-    });
+        list.forEach(async (author: AuthorData) => {
+          const url = '/backend/fetch.php?author=' + encodeURIComponent(author.name);
+          await this.fetchAuthorData(author, url);
+          console.log("Waiting avoid double requests");
+          await new Promise(r => setTimeout(r, 100));
+          console.log("Waiting avoid double requests");
+        })
+      });
+    }
   }
 
   async fetchAuthorData(author: any, url: string, retry = true) {
@@ -258,12 +309,13 @@ export class InterdemFetch extends LitElement {
     }).then((data: any) => {
       author.data = data;
       this.addAuthorData(author, url);
+      this._flatPapers = undefined;
     }).catch(() => {
       console.log(author.name + ' is not available (' + url + ')');
     });
   }
 
-  addAuthorData(author: any, url: string, retry = true) {
+  addAuthorData(author: AuthorData, url: string, retry = true) : void {
     if (author.data && author.data['PubmedArticle'] && Array.isArray(author.data['PubmedArticle'])) {
       author.data['PubmedArticle'].forEach(paper => {
         if (paper['MedlineCitation'] && paper['MedlineCitation']['Article']) {
@@ -282,13 +334,7 @@ export class InterdemFetch extends LitElement {
           }
 
           // calculate best category
-          const text = (title + ' ' + paperAbstract).toLowerCase();
-          const category = this.papers?.sort((a, b) => {
-            const aMatches = this.countKeywords(text, a['keywords']);
-            const bMatches = this.countKeywords(text, b['keywords']);
-
-            return bMatches - aMatches;
-          })[0];
+          const category = this.classify(paper, title, paperAbstract);
 
           // get category id
           const categoryIdx = this.papers?.indexOf(category);
@@ -362,6 +408,17 @@ export class InterdemFetch extends LitElement {
     }
   }
 
+  classify(paper: PubmedArticle, title: string, paperAbstract: string) : { id: number, show: boolean, name: string, keywords: { name: string, weight: number }[], years: any[] } {
+    const text = (title + ' ' + paperAbstract).toLowerCase();
+
+    return this.papers?.sort((a, b) => {
+      const aMatches = this.countKeywords(text, a['keywords']);
+      const bMatches = this.countKeywords(text, b['keywords']);
+
+      return bMatches - aMatches;
+    })[0];
+  }
+
   countKeywords(text: string, keywords: any[]) : number {
     let numMatches = 0;
 
@@ -393,27 +450,39 @@ export class InterdemFetch extends LitElement {
   searchChanged(e: CustomEvent) : void {
     const search = e.target as TextFieldElement;
 
-    if (this.authors && search.value.length > 0) {
-      const options = {
-        includeScore: true,
-        threshold: 0.35,
-        keys: [
-          'year',
-          'title',
-          'abstractText',
-          "authorsString",
-          "journal"
-        ]
-      }
+    if (this.authors && search.value.length > 0 && search.value != ' ') {
+      // const options = {
+      //   includeScore: true,
+      //   threshold: 0.4,
+      //   keys: [
+      //     'year',
+      //     'title',
+      //     'abstractText',
+      //     "authorsString",
+      //   ]
+      // }
+      //
+      // const papers = this.flatPapers;
+      //
+      // const fuse = new Fuse(papers, options);
+      // this.searchOutput = fuse.search(search.value);
 
-      const papers = this.flatPapers;
+      let jsSearch = new JsSearch.Search('title');
+      jsSearch.indexStrategy = new JsSearch.AllSubstringsIndexStrategy();
+      jsSearch.addIndex('title');
+      jsSearch.addIndex('year');
+      jsSearch.addIndex('authorsString');
+      jsSearch.addDocuments(this.flatPapers);
 
-      const fuse = new Fuse(papers, options);
-      this.searchOutput = fuse.search(search.value)
+      this.searchOutput = jsSearch.search(search.value);
     } else {
-      this.searchOutput = undefined;
+      this.searchOutput = null;
     }
 
     this.requestUpdate();
+  }
+
+  isLocal() {
+    return location.hostname === "localhost" || location.hostname === "127.0.0.1";
   }
 }

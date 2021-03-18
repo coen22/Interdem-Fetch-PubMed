@@ -3,6 +3,9 @@ header ("Content-Type:text/json");
 
 error_reporting(E_ERROR | E_PARSE);
 
+# set api key
+$api_key = '1d97dac6df422b15b3f32fdfbb3c96327009';
+
 # define database search in PubMed
 $db = 'pubmed';
 
@@ -11,10 +14,10 @@ $base = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
 
 # add authors to query
 if(isset($_GET['author'])) {
-    $author = urldecode($_GET['author']);
+  $author = urldecode($_GET['author']);
 } else {
-    # for testing
-    $author = "Aguirre, Elisa";
+  # for testing
+  $author = "Aguirre, Elisa";
 }
 
 # change for query
@@ -63,6 +66,7 @@ if (!file_exists($cacheUrl) ||
     $url = $base . "efetch.fcgi?db=$db&query_key=$key&WebEnv=$web";
     $url .= "&rettype=abstract&retmode=xml";
 
+
     # post the eFetch URL
     $ch = curl_init($url); // such as http://example.com/example.xml
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -74,7 +78,7 @@ if (!file_exists($cacheUrl) ||
     $xml = simplexml_load_string($data);
     $jsonTextTmp = json_encode($xml);
 
-    if ($jsonTextTmp != null) {
+    if ($jsonTextTmp != null && $jsonTextTmp != 'false') {
       $newFile = fopen($cacheUrl, "w");
       fwrite($newFile, $jsonTextTmp);
       fclose($newFile);
