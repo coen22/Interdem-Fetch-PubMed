@@ -11,7 +11,7 @@ import { TextFieldElement } from '@vaadin/vaadin-text-field';
 
 import Fuse from 'fuse.js';
 import * as JsSearch from 'js-search';
-import {Author, AuthorData, PubmedArticle} from "./types";
+import {Author, AuthorData, Data, PubmedArticle} from "./types";
 
 export interface Article {
   year: string;
@@ -169,7 +169,11 @@ export class InterdemFetch extends LitElement {
 
   private view: number | null | undefined = 0;
 
+  private searchText?: string;
+
   private searchOutput?: any[] | null;
+
+  private searchTimeout?: number | null;
 
   // language=CSS
   static styles = css`
@@ -208,10 +212,16 @@ export class InterdemFetch extends LitElement {
             <vaadin-tab @click=${() => this.searchOutput = null}>By Topic</vaadin-tab>
             <vaadin-tab @click=${() => this.searchOutput = null}>By Author</vaadin-tab>
           </vaadin-tabs>
-          <vaadin-text-field clear-button-visible placeholder="Search" @input=${this.searchChanged}></vaadin-text-field>
+          <vaadin-text-field clear-button-visible placeholder="Search" @change=${this.searchChanged} @input=${this.searchChanged}></vaadin-text-field>
         </div>
 
-        ${this.searchOutput ? this.searchOutput?.map((article: Article) => html`
+        ${this.searchTimeout && this.searchText ? html`
+          <p style="text-align: center">
+            Searching...
+          </p>
+        ` : ''}
+
+        ${this.searchOutput && !this.searchTimeout ? this.searchOutput?.map((article: Article) => html`
           <p>
             <b>${article.year}</b>
             ${article.authors?.map(author => html`
@@ -229,7 +239,7 @@ export class InterdemFetch extends LitElement {
           </p>
         ` : ''}
 
-        <div style="display: ${(this.view == 1 && !this.searchOutput) ? 'block' : 'none'}">
+        <div style="display: ${(this.view == 1 && !this.searchText) ? 'block' : 'none'}">
           ${this.authors?.map((mainAuthor: AuthorData) => html`
             ${mainAuthor?.data?.PubmedArticle && this.isArray(mainAuthor?.data?.PubmedArticle) ? html`
               <vaadin-details>
@@ -250,7 +260,7 @@ export class InterdemFetch extends LitElement {
           `)}
         </div>
 
-        <div style="display: ${(this.view == 0 && !this.searchOutput) ? 'block' : 'none'}">
+        <div style="display: ${(this.view == 0 && !this.searchText) ? 'block' : 'none'}">
           ${this.papers?.map(category => category.show ? html`
             <h2>${category.name}</h2>
             ${category?.years ? repeat(category.years, (yearGroup: any) => html`
@@ -277,7 +287,7 @@ export class InterdemFetch extends LitElement {
     `;
   }
 
-  connectedCallback() {
+  connectedCallback() : void {
     super.connectedCallback();
 
     if (this.isLocal()) {
@@ -300,13 +310,13 @@ export class InterdemFetch extends LitElement {
     }
   }
 
-  async fetchAuthorData(author: any, url: string, retry = true) {
+  async fetchAuthorData(author: AuthorData, url: string, retry = true) : Promise<void> {
     return await fetch(url).then(res => {
       if (!res.ok)
         throw new Error("Could not fetch author");
 
       return res.json();
-    }).then((data: any) => {
+    }).then((data: Data) => {
       author.data = data;
       this.addAuthorData(author, url);
       this._flatPapers = undefined;
@@ -447,42 +457,63 @@ export class InterdemFetch extends LitElement {
       return [ obj ];
   }
 
-  searchChanged(e: CustomEvent) : void {
+  async searchChanged(e: CustomEvent) : Promise<void> {
     const search = e.target as TextFieldElement;
 
-    if (this.authors && search.value.length > 0 && search.value != ' ') {
-      // const options = {
-      //   includeScore: true,
-      //   threshold: 0.4,
-      //   keys: [
-      //     'year',
-      //     'title',
-      //     'abstractText',
-      //     "authorsString",
-      //   ]
-      // }
-      //
-      // const papers = this.flatPapers;
-      //
-      // const fuse = new Fuse(papers, options);
-      // this.searchOutput = fuse.search(search.value);
+    this.searchText = search.value;
 
-      let jsSearch = new JsSearch.Search('title');
-      jsSearch.indexStrategy = new JsSearch.AllSubstringsIndexStrategy();
-      jsSearch.addIndex('title');
-      jsSearch.addIndex('year');
-      jsSearch.addIndex('authorsString');
-      jsSearch.addDocuments(this.flatPapers);
+    if (this.searchTimeout)
+      clearTimeout(this.searchTimeout);
 
-      this.searchOutput = jsSearch.search(search.value);
-    } else {
-      this.searchOutput = null;
-    }
+    this.searchTimeout = window.setTimeout(() => {
+
+      if (this.authors && search.value.length > 0 && search.value != ' ') {
+        // const options = {
+        //   includeScore: true,
+        //   threshold: 0.4,
+        //   keys: [
+        //     'year',
+        //     'title',
+        //     'abstractText',
+        //     "authorsString",
+        //   ]
+        // }
+        //
+        // const papers = this.flatPapers;
+        //
+        // const fuse = new Fuse(papers, options);
+        // this.searchOutput = fuse.search(search.value);
+
+        let r = Math.random().toString(36).substring(7);
+        let date = new Date();
+        console.log("search created: " + r);
+
+        let jsSearch = new JsSearch.Search('title');
+        jsSearch.indexStrategy = new JsSearch.AllSubstringsIndexStrategy();
+        jsSearch.addIndex('title');
+        jsSearch.addIndex('year');
+        jsSearch.addIndex('authorsString');
+        jsSearch.addDocuments(this.flatPapers);
+
+        Promise.resolve().then(() => {
+          this.searchOutput = jsSearch.search(search.value);
+          let time = new Date().getTime() - date.getTime();
+          console.log("search finished: " + r + " in " + time + "ms");
+
+          this.requestUpdate();
+        });
+
+      } else {
+        this.searchOutput = null;
+      }
+
+      this.searchTimeout = null;
+    },250);
 
     this.requestUpdate();
   }
 
-  isLocal() {
+  isLocal() : boolean {
     return location.hostname === "localhost" || location.hostname === "127.0.0.1";
   }
 }
