@@ -209,8 +209,8 @@ export class InterdemFetch extends LitElement {
             this.view = tabs.selected;
             this.requestUpdate();
           }}>
-            <vaadin-tab @click=${() => this.searchOutput = null}>By Topic</vaadin-tab>
-            <vaadin-tab @click=${() => this.searchOutput = null}>By Author</vaadin-tab>
+            <vaadin-tab @click=${() => this.clearSearch}>By Topic</vaadin-tab>
+            <vaadin-tab @click=${() => this.clearSearch}>By Author</vaadin-tab>
           </vaadin-tabs>
           <vaadin-text-field clear-button-visible placeholder="Search" @change=${this.searchChanged} @input=${this.searchChanged}></vaadin-text-field>
         </div>
@@ -511,6 +511,17 @@ export class InterdemFetch extends LitElement {
     },250);
 
     this.requestUpdate();
+  }
+
+  clearSearch() : void {
+    this.searchOutput = null;
+
+    if (this.searchTimeout) {
+      clearTimeout(this.searchTimeout);
+      this.searchTimeout = null;
+    }
+
+    this.searchOutput = null;
   }
 
   isLocal() : boolean {
