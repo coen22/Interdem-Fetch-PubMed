@@ -9,6 +9,8 @@ import { TabsElement } from '@vaadin/vaadin-tabs';
 import '@vaadin/vaadin-text-field';
 import { TextFieldElement } from '@vaadin/vaadin-text-field';
 
+import '@vaadin/vaadin-progress-bar';
+
 import Fuse from 'fuse.js';
 import * as JsSearch from 'js-search';
 import {Author, AuthorData, Data, PubmedArticle} from "./types";
@@ -175,6 +177,12 @@ export class InterdemFetch extends LitElement {
 
   private searchTimeout?: number | null;
 
+  get totalArticles() : number {
+    return this.authors?.length || 1;
+  }
+
+  private loadedArticles = 0;
+
   // language=CSS
   static styles = css`
     * {
@@ -202,6 +210,10 @@ export class InterdemFetch extends LitElement {
     return html`
       <div class="page-width">
         <h1>Articles</h1>
+
+        ${this.loadedArticles < this.totalArticles ? html`
+          <vaadin-progress-bar value="${this.loadedArticles / this.totalArticles}"></vaadin-progress-bar>
+        ` : ''}
 
         <div style="display: flex; justify-content:space-between ">
           <vaadin-tabs theme="minimal" @selected-changed=${(e: CustomEvent) => {
@@ -246,6 +258,7 @@ export class InterdemFetch extends LitElement {
                 <div slot="summary">${mainAuthor.name}</div>
                 ${mainAuthor?.data?.PubmedArticle ? mainAuthor?.data?.PubmedArticle?.map(article => html`
                   <p>
+                    <b>${article.MedlineCitation?.Article?.Journal?.JournalIssue?.PubDate?.Year}</b>
                     ${article?.MedlineCitation?.Article?.AuthorList?.Author ? repeat(this.asArray(article.MedlineCitation.Article.AuthorList.Author), (author: any) => html`
                       ${author?.LastName} ${author?.Initials},
                     `) : ''}
@@ -391,6 +404,8 @@ export class InterdemFetch extends LitElement {
       //   this.fetchAuthorData(author, url,false);
       console.warn('warning no data');
     }
+
+    this.loadedArticles++;
   }
 
   getAbstractText(obj: any | any[]) : string {
