@@ -316,14 +316,14 @@ export class InterdemFetch extends LitElement {
     super.connectedCallback();
 
     // print keys
-    let keys = "";
-    this.papers?.forEach((x: any) => {
-      keys += "\n" + x.name + "\n";
-      x.keywords.forEach((y: any) => {
-        keys += y.name + "\n";
-      });
-    });
-    console.log(keys);
+    // let keys = "";
+    // this.papers?.forEach((x: any) => {
+    //   keys += "\n" + x.name + "\n";
+    //   x.keywords.forEach((y: any) => {
+    //     keys += y.name + "\n";
+    //   });
+    // });
+    // console.log(keys);
 
     if (this.isLocal()) {
       fetch('/data/names.json').then(res => res.json()).then((list: AuthorData[]) => {
