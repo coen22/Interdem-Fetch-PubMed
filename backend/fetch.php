@@ -1,6 +1,10 @@
 <?php
 header ("Content-Type:text/json");
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 error_reporting(E_ERROR | E_PARSE);
 
 # set api key
@@ -40,7 +44,7 @@ if (!file_exists($cacheUrl) || $jsonText == 'false' ||
     time() - filemtime($cacheUrl) > 24 * 3600) {
 
     # create search query
-    $query = "dementia[mesh]+AND+$author" . "[AU]";
+    $query = "dementia+AND+$author" . "[AU]";
 
     #assemble the esearch URL
     $queryUrl = $base . "esearch.fcgi?db=$db&term=$query&usehistory=y";
@@ -97,9 +101,7 @@ if (!file_exists($cacheUrl) || $jsonText == 'false' ||
         }
     } catch (Exception $e) {
         // no articles founds
-        if ($jsonText == null) {
-            echo $e->getMessage();
-        }
+        echo $e->getMessage();
     }
 }
 

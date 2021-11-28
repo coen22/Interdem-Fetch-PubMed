@@ -1,5 +1,6 @@
-import {LitElement, html, css, property, customElement, TemplateResult} from 'lit-element';
-import {repeat} from "lit-html/directives/repeat";
+import {LitElement, html, css, TemplateResult} from 'lit';
+import {customElement, property} from 'lit/decorators';
+import {repeat} from "lit/directives/repeat";
 
 import '@vaadin/vaadin-details';
 
@@ -16,7 +17,7 @@ import * as JsSearch from 'js-search';
 import {Author, AuthorData, Data, PubmedArticle} from "./types";
 
 export interface Article {
-  year: string;
+  year: number;
   title: string;
   abstractText: string;
   journal: string;
@@ -106,7 +107,14 @@ export class InterdemFetch extends LitElement {
       name: 'Organization of dementia care',
       keywords: [
         { name: 'organization', weight: 10 },
-        { name: 'organisation', weight: 10 }
+        { name: 'organisation', weight: 10 },
+        { name: 'access to care', weight: 10 },
+        { name: 'pathway', weight: 10 },
+        { name: 'person centered care', weight: 10 },
+        { name: 'person-centered care', weight: 10 },
+        { name: 'person centred care', weight: 10 },
+        { name: 'person-centred care', weight: 10 },
+        { name: 'integrated care', weight: 10 }
       ]
     }, {
       id: 3,
@@ -119,7 +127,16 @@ export class InterdemFetch extends LitElement {
         { name: 'persons need', weight: 1 },
         { name: 'quality of life', weight: 1 },
         { name: 'decision-making', weight: 1 },
-        { name: 'end-of-life', weight: 1 }
+        { name: 'well-being', weight: 1 },
+        { name: 'well being', weight: 1 },
+        { name: 'psychological', weight: 1 },
+        { name: 'psychological distress', weight: 1 },
+        { name: 'physical', weight: 1 },
+        { name: 'mobility', weight: 1 },
+        { name: 'activities of daily living', weight: 1 },
+        { name: 'instrumental activities of daily living', weight: 1 },
+        { name: 'subjective need', weight: 1 },
+        { name: 'iadl', weight: 1 },
       ]
     }, {
       id: 4,
@@ -138,7 +155,10 @@ export class InterdemFetch extends LitElement {
         { name: 'intervention', weight: 1 },
         { name: 'caregiver', weight: 1 },
         { name: 'physician', weight: 1 },
-        { name: 'psychosocial', weight: 1 }
+        { name: 'psychosocial', weight: 1 },
+        { name: 'persons with dementia', weight: 1 },
+        { name: 'nonpharmacological', weight: 1 },
+        { name: 'non-pharmacological', weight: 1 }
       ]
     }, {
       id: 6,
@@ -146,18 +166,29 @@ export class InterdemFetch extends LitElement {
       name: 'Advances in technology',
       keywords: [
         { name: 'technology', weight: 5 },
+        { name: 'technological', weight: 5 },
+        { name: 'assistive technology', weight: 5 },
         { name: 'e-health', weight: 10 },
         { name: 'wearables', weight: 10 },
         { name: 'devices', weight: 10 },
-        { name: 'robots', weight: 10 }
+        { name: 'robots', weight: 10 },
+        { name: 'robotics', weight: 10 },
+        { name: 'telemedicine', weight: 10 },
+        { name: 'artificial intelligence', weight: 10 },
+        { name: 'machine learning', weight: 10 },
+        { name: 'deep learning', weight: 10 },
+        { name: 'ict', weight: 10 },
+        { name: 'domotics', weight: 10 },
+        { name: 'virtual reality', weight: 10 },
+        { name: 'electronic', weight: 10 }
       ]
     }, {
       id: 7,
       show: false,
       name: 'Neuroscience',
       keywords: [
-        { name: 'Amyloid', weight: 100 },
-        { name: 'PET', weight: 10 },
+        { name: 'amyloid', weight: 100 },
+        { name: 'pet', weight: 10 },
         { name: 'neurofilament', weight: 100 },
         { name: 'synaptic', weight: 10 },
         { name: 'apolipoprotein', weight: 100 },
@@ -177,6 +208,15 @@ export class InterdemFetch extends LitElement {
         { name: 'acetyltransferase', weight: 100 },
         { name: 'receptors', weight: 10 },
         { name: 'genotype', weight: 1 }
+      ]
+    }, {
+      id: 8,
+      show: true,
+      name: 'Cognition',
+      keywords: [
+        { name: 'cognitive impairment', weight: 100 },
+        { name: 'cognitive decline', weight: 100 },
+        { name: 'neurocognitive impairment', weight: 100 }
       ]
     }
   ];
@@ -245,7 +285,7 @@ export class InterdemFetch extends LitElement {
           </p>
         ` : ''}
 
-        ${this.searchOutput && !this.searchTimeout ? this.searchOutput?.map((article: Article) => html`
+        ${this.searchOutput && !this.searchTimeout ? this.searchOutput?.sort((a: Article, b: Article) => b.year - a.year).map((article: Article) => html`
           <p>
             <b>${article.year}</b>
             ${article.authors?.map(author => html`
@@ -314,16 +354,6 @@ export class InterdemFetch extends LitElement {
 
   connectedCallback() : void {
     super.connectedCallback();
-
-    // print keys
-    // let keys = "";
-    // this.papers?.forEach((x: any) => {
-    //   keys += "\n" + x.name + "\n";
-    //   x.keywords.forEach((y: any) => {
-    //     keys += y.name + "\n";
-    //   });
-    // });
-    // console.log(keys);
 
     if (this.isLocal()) {
       fetch('/data/names.json').then(res => res.json()).then((list: AuthorData[]) => {
