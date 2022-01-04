@@ -14,23 +14,23 @@
   "devDependencies": {
     "@open-wc/building-rollup": "^2.0.1",
     "@open-wc/eslint-config": "^7.0.0",
-    "@types/node": "16.11.10",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "@web/dev-server": "^0.1.28",
-    "concurrently": "^6.4.0",
+    "@types/node": "17.0.7",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "@web/dev-server": "^0.1.29",
+    "concurrently": "^7.0.0",
     "deepmerge": "^4.2.2",
-    "eslint": "^8.3.0",
+    "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
-    "lint-staged": "^12.1.2",
-    "prettier": "^2.5.0",
+    "lint-staged": "^12.1.5",
+    "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "rollup": "^2.60.1",
+    "rollup": "^2.63.0",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-gzip": "^3.0.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   },
   "eslintConfig": {
     "extends": [
@@ -61,11 +61,11 @@
   "license": "MIT",
   "dependencies": {
     "@types/js-search": "^1.4.0",
-    "@vaadin/vaadin-details": "^21.0.5",
-    "@vaadin/vaadin-progress-bar": "^21.0.5",
-    "@vaadin/vaadin-tabs": "^21.0.5",
-    "@vaadin/vaadin-text-field": "^21.0.5",
-    "fuse.js": "^6.4.6",
+    "@vaadin/vaadin-details": "^22.0.2",
+    "@vaadin/vaadin-progress-bar": "^22.0.2",
+    "@vaadin/vaadin-tabs": "^22.0.2",
+    "@vaadin/vaadin-text-field": "^22.0.2",
+    "fuse.js": "^6.5.3",
     "js-search": "^2.0.0",
     "lit": "2.0.2"
   }
